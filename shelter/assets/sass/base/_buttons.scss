@@ -1,0 +1,28 @@
+.button {
+    @extend %font-prim;
+    color: $color-dark-3xl;
+    padding: 15px 45px;
+    font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.06em;
+    border-radius: 100px;
+    cursor: pointer;
+    @extend %transition;
+    &_primary {
+        background: $color-primary;
+        border: 1px solid $color-primary;
+        &:hover {
+            background: $color-primary-light;
+            border: 1px solid $color-primary-light;
+        }
+        }
+    &_secondary {
+        background: $color-light-xl;
+        border: 2px solid $color-primary-light;
+        &:hover {
+            background: $color-primary-light;
+        }
+    }
+}

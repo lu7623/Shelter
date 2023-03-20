@@ -387,8 +387,12 @@ ul {
 * {
   box-sizing: border-box; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000031}}
+.button {
+  transition: all .3s ease-out; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000035}}
-body {
+body, .button {
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000039}}
@@ -458,6 +462,33 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000343}}
 .color-prime {
   color: #F1CDB3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\000031}}
+.button {
+  color: #292929;
+  padding: 15px 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  border-radius: 100px;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\0000313}}
+  .button_primary {
+    background: #F1CDB3;
+    border: 1px solid #F1CDB3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\0000316}}
+    .button_primary:hover {
+      background: #FDDCC4;
+      border: 1px solid #FDDCC4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\0000321}}
+  .button_secondary {
+    background: #FFFFFF;
+    border: 2px solid #FDDCC4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\0000324}}
+    .button_secondary:hover {
+      background: #FDDCC4; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\000031}}
 .icon {
