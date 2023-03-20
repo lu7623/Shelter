@@ -1,86 +1,73 @@
-.icon{
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-flex;
-        align-items: center;
-        justify-content: center;
-}
-
-.slider__arrow {
-    width: 52px;
-height: 52px;
-}
-
-.button-arrow-left {
-    background-image: url('../img/icons/button_arrow.svg');
-}
-
-.button-arrow-right {
-    background-image: url('../img/icons/button_arrow-right.svg');
+.icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .needs__img {
-    width: 60px;
-height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 #food {
-    background-image: url('../img/icons/icon-pet-food.svg'); 
+  background-image: url("../img/icons/icon-pet-food.svg");
 }
 
 #transportation {
-    background-image: url('../img/icons/icon-transportation.svg'); 
+  background-image: url("../img/icons/icon-transportation.svg");
 }
 
 #toys {
-    background-image: url('../img/icons/icon-toys.svg'); 
+  background-image: url("../img/icons/icon-toys.svg");
 }
 
 #bowls {
-    background-image: url('../img/icons/icon-bowls-and-cups.svg'); 
+  background-image: url("../img/icons/icon-bowls-and-cups.svg");
 }
 
 #shampoo {
-    background-image: url('../img/icons/icon-shampoos.svg'); 
+  background-image: url("../img/icons/icon-shampoos.svg");
 }
 
 #vitamins {
-    background-image: url('../img/icons/icon-vitamins.svg'); 
+  background-image: url("../img/icons/icon-vitamins.svg");
 }
 
 #medicines {
-    background-image: url('../img/icons/icon-medicines.svg'); 
+  background-image: url("../img/icons/icon-medicines.svg");
 }
 
 #collars {
-    background-image: url('../img/icons/icon-collars-leashes.svg'); 
+  background-image: url("../img/icons/icon-collars-leashes.svg");
 }
 
 #sleep {
-    background-image: url('../img/icons/icon-sleeping-area.svg'); 
+  background-image: url("../img/icons/icon-sleeping-area.svg");
 }
 
 .donation__logo {
-    background-image: url('../img/icons/credit-card.svg'); 
-    width: 30px;
-height: 23px;
+  background-image: url("../img/icons/credit-card.svg");
+  width: 30px;
+  height: 23px;
 }
 
 .marker {
-    background-image: url('../img/icons/icon-marker.svg'); 
-    width: 22px;
-height: 32px;
+  background-image: url("../img/icons/icon-marker.svg");
+  width: 22px;
+  height: 32px;
 }
 
 .email {
-    background-image: url('../img/icons/icon-email.svg'); 
+  background-image: url("../img/icons/icon-email.svg");
 }
 
 .phone {
-    background-image: url('../img/icons/icon-phone.svg'); 
+  background-image: url("../img/icons/icon-phone.svg");
 }
 
 .contact__logo {
-    width: 40px;
-    height: 32px; 
+  width: 40px;
+  height: 32px;
 }
