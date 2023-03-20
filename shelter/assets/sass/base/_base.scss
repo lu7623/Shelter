@@ -6,7 +6,6 @@ body {
     @extend %font-prim;
 }
 
-
 h2 {
     @include font($size: 5.7rem, $height: 4.4rem);
     }
@@ -30,5 +29,17 @@ h5 {
 
 .paragraph-s {
     @extend %font-add;
-    @include font($size: 1.2rem, $height: 1.8rem, $style: italic);
+    @include font($size: 1.2rem, $height: 1.8rem, $style: italic, $color: $color-dark-m);
+}
+
+.color-light {
+    color: $color-dark-s;
+}
+
+.color-dark {
+    color: $color-dark-xl;
+}
+
+.color-prime {
+    color: $color-primary;
 }

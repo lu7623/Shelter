@@ -1,84 +1,558 @@
-/*
-Error: Undefined mixin 'font'.
-        on line 11 of D:/lu7623-JSFE2023Q1/shelter/assets/sass/base/_base.scss, in `font'
-        from line 11 of D:/lu7623-JSFE2023Q1/shelter/assets/sass/base/_base.scss
-        from line 8 of D:\lu7623-JSFE2023Q1\shelter\assets\sass\style.scss
+/* ==========================================================================
+   Normalize.scss settings
+   ========================================================================== */
+/**
+ * Includes legacy browser support IE6/7
+ *
+ * Set to false if you want to drop support for IE6 and IE7
+ */
+/* Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *  `em` units.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000323}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
 
-6: 
-7: //Base
-8: @import "base/base";
-9: @import "base/buttons";
-10: @import "base/logo";
-11: @import "base/icons";
-12: 
-13: //Layouts
-14: @import "layouts/wrapper";
-15: @import "layouts/header";
-16: @import "layouts/columns";
+/**
+ * Remove default margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000336}}
+body {
+  margin: 0; }
 
-Backtrace:
-D:/lu7623-JSFE2023Q1/shelter/assets/sass/base/_base.scss:11:in `font'
-D:/lu7623-JSFE2023Q1/shelter/assets/sass/base/_base.scss:11
-D:\lu7623-JSFE2023Q1\shelter\assets\sass\style.scss:8
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'font'.\A         on line 11 of D:/lu7623-JSFE2023Q1/shelter/assets/sass/base/_base.scss, in `font'\A         from line 11 of D:/lu7623-JSFE2023Q1/shelter/assets/sass/base/_base.scss\A         from line 8 of D:\lu7623-JSFE2023Q1\shelter\assets\sass\style.scss\A \A 6: \A 7: //Base\A 8: @import \"base/base\";\A 9: @import \"base/buttons\";\A 10: @import \"base/logo\";\A 11: @import \"base/icons\";\A 12: \A 13: //Layouts\A 14: @import \"layouts/wrapper\";\A 15: @import \"layouts/header\";\A 16: @import \"layouts/columns\";"; }
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000350}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000371}}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000388}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000398}}
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003110}}
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003120}}
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003132}}
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003140}}
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003155}}
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003164}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Addresses styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003200}}
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003239}}
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003247}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003255}}
+sup {
+  top: -0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003259}}
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 8/9/10.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003314}}
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003325}}
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003336}}
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003344}}
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003353}}
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003362}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *  Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ * 4. Improves appearance and consistency in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003389}}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003407}}
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003418}}
+button,
+select {
+  text-transform: none; }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003427}}
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003436}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003447}}
+input {
+  line-height: normal; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ *  Known issue: excess padding remains in IE 6.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003457}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003473}}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003485}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003494}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Corrects text not wrapping in Firefox 3.
+ * 4. Corrects alignment displayed oddly in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003507}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003520}}
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003529}}
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003540}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003545}}
+td,
+th {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003550}}
+ul {
+  padding-left: 0;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003555}}
+* {
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000035}}
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000039}}
+.paragraph-l, .paragraph-s {
+  font-family: Arial, Helvetica, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\000031}}
+html {
+  font-size: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\000039}}
+h2 {
+  font-size: 5.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.4rem;
+  color: #545454; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000313}}
+h3 {
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.5rem;
+  color: #545454; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000317}}
+h4 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.3rem;
+  color: #545454; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000321}}
+h5 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #545454; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000325}}
+.paragraph-l {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #545454; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000330}}
+.paragraph-s {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #B2B2B2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000335}}
+.color-light {
+  color: #CDCDCD; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000339}}
+.color-dark {
+  color: #4C4C4C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000343}}
+.color-prime {
+  color: #F1CDB3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\000031}}
+.icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\000039}}
+.slider__arrow {
+  width: 52px;
+  height: 52px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000314}}
+.button-arrow-left {
+  background-image: url("../img/icons/button_arrow.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000318}}
+.button-arrow-right {
+  background-image: url("../img/icons/button_arrow-right.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000322}}
+.needs__img {
+  width: 60px;
+  height: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000327}}
+#food {
+  background-image: url("../img/icons/icon-pet-food.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000331}}
+#transportation {
+  background-image: url("../img/icons/icon-transportation.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000335}}
+#toys {
+  background-image: url("../img/icons/icon-toys.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000339}}
+#bowls {
+  background-image: url("../img/icons/icon-bowls-and-cups.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000343}}
+#shampoo {
+  background-image: url("../img/icons/icon-shampoos.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000347}}
+#vitamins {
+  background-image: url("../img/icons/icon-vitamins.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000351}}
+#medicines {
+  background-image: url("../img/icons/icon-medicines.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000355}}
+#collars {
+  background-image: url("../img/icons/icon-collars-leashes.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000359}}
+#sleep {
+  background-image: url("../img/icons/icon-sleeping-area.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000363}}
+.donation__logo {
+  background-image: url("../img/icons/credit-card.svg");
+  width: 30px;
+  height: 23px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000369}}
+.marker {
+  background-image: url("../img/icons/icon-marker.svg");
+  width: 22px;
+  height: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000375}}
+.email {
+  background-image: url("../img/icons/icon-email.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000379}}
+.phone {
+  background-image: url("../img/icons/icon-phone.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000383}}
+.contact__logo {
+  width: 40px;
+  height: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
+.wrapper {
+  max-width: 1280px;
+  margin: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_footer\.scss}line{font-family:\000031}}
+.footer__title {
+  color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */
