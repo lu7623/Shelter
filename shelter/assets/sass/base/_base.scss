@@ -1,0 +1,45 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    @extend %font-prim;
+}
+
+h2 {
+    @include font($size: 5.7rem, $height: 4.4rem);
+    }
+
+h3 {
+    @include font($size: 3.5rem, $height: 4.5rem);
+}
+
+h4 {
+    @include font($size: 2rem, $height: 2.3rem);
+}
+
+h5 {
+    @include font($size: 1.5rem, $height: 1.7rem);
+}
+
+.paragraph-l {
+    @extend %font-add;
+    @include font($size: 1.5rem, $height: 2.4rem);
+}
+
+.paragraph-s {
+    @extend %font-add;
+    @include font($size: 1.2rem, $height: 1.8rem, $style: italic, $color: $color-dark-m);
+}
+
+.color-light {
+    color: $color-dark-s;
+}
+
+.color-dark {
+    color: $color-dark-xl;
+}
+
+.color-prime {
+    color: $color-primary;
+}
