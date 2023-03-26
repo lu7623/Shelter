@@ -2,6 +2,8 @@
     height: 270px;
 width: 270px;
 border-radius: 9px 9px 0px 0px;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .img-katrine {
@@ -33,4 +35,19 @@ border-radius: 9px 9px 0px 0px;
 
 .img-freddie {
     background-image: url("../img/images/pets-freddie.png");
+}
+
+.card {
+    width: 270px;
+height: 435px;
+background-color: $color-light-s;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+&:hover {
+    background: $color-light-xl;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
 }

@@ -1,0 +1,13 @@
+.help__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.help__item {
+  padding: 30px 60px;
+}
+
+.help__title {
+  text-align: center;
+}

@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shelter</title>
+    <link rel="icon" href="assets/favicon-32x32.png" >
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+<div class="gradient_background">
     <header class="header">
-      <div class="wrapper">
+      <div class="wrapper header__wrapper">
         <div class="logo">
-          <h2 class="logo__title">Cozy House</h2>
+          <h1 class="logo__title">Cozy House</h2>
           <h4 class="logo__subtitle">Shelter for pets in Boston</h4>
         </div>
         <nav class="header__nav">
@@ -33,7 +35,7 @@
       </div>
     </header>
     <section class="start">
-      <div class="wrapper">
+      <div class="wrapper layout-2-column ">
         <div class="start__content">
           <h2>Not only people need a house</h2>
           <p class="paragraph-l color-light">
@@ -46,12 +48,13 @@
         <div class="start__img"></div>
       </div>
     </section>
+  </div>
     <section class="about">
       <div class="wrapper">
-        <div class="layout-2-columns">
+        <div class="layout-2-column">
           <div class="about__img"></div>
           <div class="about__content">
-            <h3>About the shelter “Cozy House”</h3>
+            <h3 class="about__title">About the shelter “Cozy House”</h3>
             <p class="paragraph-l color-dark">
               Currently we have 121 dogs and 342 cats on our hands and
               statistics show that only 20% of them will find a family. The
@@ -72,10 +75,10 @@
     </section>
     <section class="pets">
       <div class="wrapper">
-        <h3>Our friends who are looking for a house</h3>
+        <h3 class="pets__title">Our friends who are looking for a house</h3>
         <div class="slider">
           <div class="icon button-arrow-left slider__arrow"></div>
-          <div class="layout-3-columns">
+          <div class="layout-3-column">
             <div class="card">
               <div class="card__img  img-katrine"></div>
               <h4 class="card__heading">Katrine</h4>
@@ -99,9 +102,9 @@
     </section>
     <section class="help">
       <div class="wrapper">
-        <h3>How you can help our shelter</h3>
-        <div class="help__content">
-          <ul>
+        <h3 class="help__title">How you can help our shelter</h3>
+        <div class="help__wrapper">
+          <ul class="help__content">
             <li class="help__item">
               <div class="needs">
                 <div class="needs__img" id="food"></div>
@@ -162,7 +165,7 @@
     </section>
     <section class="donation">
       <div class="wrapper">
-        <div class="layout-2-columns">
+        <div class="layout-2-column">
           <div class="donation__img"></div>
           <div class="donation__content">
             <h3>You can also make a donation</h3>
@@ -181,27 +184,27 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
-      <div class="wrapper">
+    <footer class="footer gradient_background">
+      <div class="wrapper layout-3-column">
         <div class="footer__contacts">
           <h3 class="footer__title">For questions and suggestions</h3>
-          <div class="contact">
+          <div class="footer__contact">
             <div class="contact__logo email"></div>
             <h4 class="color-prime">email@shelter.com</h4>
           </div>
-          <div class="contact">
+          <div class="footer__contact">
             <div class="contact__logo phone"></div>
             <h4 class="color-prime">+13 674 567 75 54</h4>
           </div>
         </div>
         <div class="footer__location">
           <h3 class="footer__title">We are waiting for your visit</h3>
-          <div class="contact">
-            <div class=" marker"></div>
+          <div class="footer__contact">
+            <div class="marker"></div>
             <h4 class="color-prime">1 Central Street, Boston (entrance from the store)</h4>
           </div>
-          <div class="contact">
-            <div class=" marker"></div>
+          <div class="footer__contact">
+            <div class="marker"></div>
             <h4 class="color-prime">18 South Park, London</h4>
           </div>
         </div>
