@@ -1,0 +1,25 @@
+.header__wrapper {
+ display: flex;
+ justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation__link {
+    padding-left: 35px;
+    &:first-of-type { 
+        padding: 0;}
+}
+
+.link {
+    text-decoration: none;
+    &:hover {
+        color: $color-light-s;
+    }
+}
+
+.link-active {
+    border-bottom: 3px solid $color-primary;
+}

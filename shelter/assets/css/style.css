@@ -437,9 +437,10 @@ h4 {
   font-weight: 400;
   line-height: 2.3rem;
   color: #545454;
-  letter-spacing: normal; }
+  letter-spacing: 0.06em;
+  margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000326}}
 h5 {
   font-size: 1.5rem;
   font-style: normal;
@@ -448,7 +449,7 @@ h5 {
   color: #545454;
   letter-spacing: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000330}}
 .paragraph-l {
   font-size: 1.5rem;
   font-style: normal;
@@ -457,7 +458,7 @@ h5 {
   color: #545454;
   letter-spacing: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000335}}
 .paragraph-s {
   font-size: 1.2rem;
   font-style: italic;
@@ -466,19 +467,19 @@ h5 {
   color: #B2B2B2;
   letter-spacing: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000340}}
 .color-light {
   color: #CDCDCD; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000344}}
 .color-dark {
   color: #4C4C4C; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000348}}
 .color-prime {
   color: #F1CDB3; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000352}}
 .logo-subtitle {
   font-size: 1.3rem;
   font-style: normal;
@@ -494,7 +495,7 @@ h5 {
   font-weight: 400;
   line-height: 2.2rem;
   color: #292929;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06rem;
   padding: 15px 45px;
   border-radius: 100px;
   cursor: pointer; }
@@ -636,12 +637,18 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000349}}
   .card:hover {
     background: #FFFFFF;
     box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000355}}
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\000031}}
 .slider__arrow {
@@ -660,15 +667,6 @@ h5 {
 .wrapper {
   max-width: 1280px;
   margin: auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_header\.scss}line{font-family:\000031}}
-.header__wrapper {
-  display: flex;
-  justify-content: space-between; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_header\.scss}line{font-family:\000036}}
-.navigation {
-  display: flex; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_columns\.scss}line{font-family:\000031}}
 .layout-3-column {
@@ -697,36 +695,6 @@ h5 {
   .layout-4-column > * {
     flex-basis: 21%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_footer\.scss}line{font-family:\000031}}
-.footer__title {
-  color: #FFFFFF; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_footer\.scss}line{font-family:\000035}}
-.footer__img {
-  background-image: url("../img/images/footer-puppy.png");
-  width: 300px;
-  height: 310px;
-  background-repeat: no-repeat; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_footer\.scss}line{font-family:\0000312}}
-.footer__contact {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_footer\.scss}line{font-family:\0000318}}
-.footer__contact h4 {
-  margin: 0;
-  padding-left: 20px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_footer\.scss}line{font-family:\0000323}}
-.footer__location {
-  width: 302px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_footer\.scss}line{font-family:\0000327}}
-.gradient_background {
-  background: url(../img/images/95577108af837b8b441616746225b66e.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\000031}}
 .start__img {
   width: 698px;
@@ -751,6 +719,24 @@ h5 {
   height: 261px;
   background-repeat: no-repeat; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000038}}
+.donation {
+  background-color: #F6F6F6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000312}}
+.donation__card {
+  display: flex;
+  align-items: center;
+  background-color: #F1CDB3;
+  border-radius: 9px;
+  width: 349px;
+  padding: 10px 15px;
+  justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000320}}
+  .donation__card:hover {
+    background-color: #FDDCC4;
+    cursor: pointer; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\000031}}
 .help__content {
   display: flex;
@@ -759,63 +745,140 @@ h5 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\000037}}
 .help__item {
-  padding: 30px 60px; }
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000315}}
 .help__title {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000315}}
-.needs {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\000031}}
-.pets__title {
-  text-align: center; }
+.pets {
+  background-color: #F6F6F6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\000035}}
+.pets__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000311}}
+.pets__button {
+  width: 262px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000031}}
+.our-pets {
+  background-color: #F6F6F6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000035}}
 .cards__container {
   width: 1200px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000039}}
 .cards__row {
   margin-bottom: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000313}}
 .our-pets__wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000319}}
 .icon_nav {
   width: 52px;
   height: 52px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000324}}
 .our-pets__nav {
   padding-top: 60px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000327}}
 .our-pets__2arrowleft {
   background-image: url(../img/icons/button_2arrow_inactive.svg); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000331}}
 .our-pets__1arrowleft {
   background-image: url(../img/icons/button_arrow_inactive.svg); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000335}}
 .our-pets__pagenum {
   background-image: url(../img/icons/button_paginator_active.svg); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000339}}
 .our-pets__1arrowright {
   background-image: url(../img/icons/button_arrow_active.svg); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000343}}
 .our-pets__2arrowright {
   background-image: url(../img/icons/button_2arrow-active.svg); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+.footer__title {
+  color: #FFFFFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\000035}}
+.footer__img {
+  background-image: url("../img/images/footer-puppy.png");
+  width: 300px;
+  height: 310px;
+  background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000312}}
+.footer__contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000318}}
+.footer__contact h4 {
+  margin: 0;
+  padding-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000323}}
+.footer__location {
+  width: 302px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000327}}
+.gradient_background {
+  background: url(../img/images/95577108af837b8b441616746225b66e.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\000031}}
+.link-pets {
+  text-decoration: none;
+  color: #545454; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\000034}}
+  .link-pets:hover {
+    color: #292929; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000036}}
+.navigation {
+  display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000310}}
+.navigation__link {
+  padding-left: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000312}}
+  .navigation__link:first-of-type {
+    padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000316}}
+.link {
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000318}}
+  .link:hover {
+    color: #FAFAFA; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000323}}
+.link-active {
+  border-bottom: 3px solid #F1CDB3; }
 
 /*# sourceMappingURL=style.css.map */

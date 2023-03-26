@@ -4,3 +4,21 @@ width: 505px;
 height: 261px;
 background-repeat: no-repeat;
 }
+
+.donation {
+    background-color: $color-light-l;
+}
+
+.donation__card {
+    display: flex;
+    align-items: center;
+    background-color: $color-primary;
+    border-radius: 9px;
+    width: 349px;
+    padding: 10px 15px;
+    justify-content: space-between;
+    &:hover {
+        background-color: $color-primary-light;
+        cursor: pointer;
+    }
+}

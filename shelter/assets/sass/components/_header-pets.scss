@@ -1,0 +1,7 @@
+.link-pets {
+    text-decoration: none;
+    color: $color-dark-l;
+    &:hover {
+        color: $color-dark-3xl;
+    }
+}

@@ -19,7 +19,8 @@ h3 {
 }
 
 h4 {
-    @include font($size: 2rem, $height: 2.3rem);
+    @include font($size: 2rem, $height: 2.3rem, $letter: 0.06em);
+    margin: 0;
 }
 
 h5 {

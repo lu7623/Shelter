@@ -15,9 +15,8 @@
 
 //Layouts
 @import "layouts/wrapper";
-@import "layouts/header";
 @import "layouts/columns";
-@import "layouts/footer";
+
 
 // Components
 @import "components/start";
@@ -26,3 +25,6 @@
 @import "components/help";
 @import "components/pets";
 @import "components/our-pets";
+@import "components/footer";
+@import "components/header-pets";
+@import "components/header-main";

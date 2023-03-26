@@ -44,10 +44,16 @@ background-color: $color-light-s;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 &:hover {
     background: $color-light-xl;
     box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
