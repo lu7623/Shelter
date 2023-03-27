@@ -137,10 +137,35 @@ h1 {
   font-size: 2em;
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003169}}
+h2 {
+  font-size: 1.5em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003174}}
+h3 {
+  font-size: 1.17em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003179}}
+h4 {
+  font-size: 1em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003184}}
+h5 {
+  font-size: 0.83em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003189}}
+h6 {
+  font-size: 0.67em;
+  margin: 0; }
+
 /**
  * Addresses styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003199}}
 mark {
   background: #ff0;
   color: #000; }
@@ -148,14 +173,14 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003238}}
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003246}}
 sub,
 sup {
   font-size: 75%;
@@ -163,11 +188,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003254}}
 sup {
   top: -0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003258}}
 sub {
   bottom: -0.25em; }
 
@@ -177,14 +202,14 @@ sub {
  * 1. Remove border when inside `a` element in IE 8/9/10.
  * 2. Improves image quality when scaled in IE 7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003313}}
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003324}}
 svg:not(:root) {
   overflow: hidden; }
 
@@ -193,14 +218,14 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003335}}
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003343}}
 hr {
   box-sizing: content-box;
   height: 0; }
@@ -208,7 +233,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003352}}
 pre {
   overflow: auto; }
 
@@ -216,7 +241,7 @@ pre {
  * Address odd `em`-unit font size rendering in all browsers.
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003361}}
 code,
 kbd,
 pre,
@@ -237,7 +262,7 @@ samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  * 4. Improves appearance and consistency in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003388}}
 button,
 input,
 optgroup,
@@ -253,7 +278,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003406}}
 button {
   overflow: visible; }
 
@@ -263,7 +288,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003418}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003417}}
 button,
 select {
   text-transform: none; }
@@ -271,7 +296,7 @@ select {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003426}}
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -279,7 +304,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003436}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003435}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -289,7 +314,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003446}}
 input {
   line-height: normal; }
 
@@ -298,7 +323,7 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  *  Known issue: excess padding remains in IE 6.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003456}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -311,7 +336,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003473}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003472}}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -321,7 +346,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003484}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -329,7 +354,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003494}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003493}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -341,7 +366,7 @@ fieldset {
  * 3. Corrects text not wrapping in Firefox 3.
  * 4. Corrects alignment displayed oddly in IE 6/7.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003506}}
 legend {
   border: 0;
   /* 1 */
@@ -351,7 +376,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003519}}
 textarea {
   overflow: auto; }
 
@@ -359,7 +384,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003528}}
 optgroup {
   font-weight: bold; }
 
@@ -368,22 +393,22 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003540}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003539}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003544}}
 td,
 th {
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003549}}
 ul {
   padding-left: 0;
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003554}}
 * {
   box-sizing: border-box; }
 
@@ -447,7 +472,7 @@ h5 {
   font-weight: 400;
   line-height: 1.7rem;
   color: #545454;
-  letter-spacing: normal; }
+  letter-spacing: 0.06em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000330}}
 .paragraph-l {
@@ -486,7 +511,7 @@ h5 {
   font-weight: 400;
   line-height: 2.2rem;
   color: #292929;
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.08rem;
   padding: 15px 45px;
   border-radius: 100px;
   cursor: pointer; }
@@ -634,12 +659,12 @@ h5 {
   .card:hover {
     background: #FFFFFF;
     box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000355}}
-.slider {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000353}}
+  .card:hover > button {
+    background-color: #FDDCC4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000356}}
+  .card > button {
+    margin-bottom: 30px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\000031}}
 .slider__arrow {
@@ -690,16 +715,17 @@ h5 {
 .start__title {
   color: #FFFFFF;
   padding-top: 127px;
+  margin: 35px 0;
   padding-bottom: 7px;
   width: 310px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000318}}
 .start__content {
   max-width: 460px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000322}}
 .start__button {
-  margin-top: 23px; }
+  margin-top: 28px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\000031}}
 .about__img {
@@ -708,12 +734,12 @@ h5 {
   height: 408px;
   background-repeat: no-repeat; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\000038}}
 .about__title {
   width: 340px;
-  margin-bottom: 0; }
+  margin-top: 35px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000313}}
 .about__wrapper {
   width: 850px;
   padding-top: 60px;
@@ -721,11 +747,11 @@ h5 {
   margin: auto;
   align-items: flex-end; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000321}}
 .about__content {
   width: 430px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000325}}
 .about_p {
   margin-top: 23px;
   margin-bottom: 28px; }
@@ -735,13 +761,14 @@ h5 {
   background-image: url("../img/images/donation-dog.png");
   width: 505px;
   height: 261px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000039}}
 .donation {
   background-color: #F6F6F6; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000313}}
 .donation__card {
   display: flex;
   align-items: center;
@@ -750,28 +777,59 @@ h5 {
   width: 349px;
   padding: 10px 15px;
   justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000321}}
   .donation__card:hover {
     background-color: #FDDCC4;
     cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000327}}
+.donation__content {
+  width: 379px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000333}}
+  .donation__content > p {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000338}}
+.donation__wrapper {
+  width: 915px;
+  margin: auto;
+  padding: 80px 0 100px 0;
+  align-items: center; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\000031}}
 .help__content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: center;
+  padding-bottom: 73px;
+  margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\000039}}
 .help__item {
-  padding: 30px 60px;
+  margin: 28px 60px;
+  height: 113px;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: space-between; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000319}}
 .help__title {
-  text-align: center; }
+  text-align: center;
+  width: 310px;
+  padding-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000325}}
+.help__wrapper {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\000031}}
 .pets {
@@ -781,11 +839,29 @@ h5 {
 .pets__wrapper {
   display: flex;
   flex-direction: column;
+  padding: 80px 0;
   align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000312}}
 .pets__button {
-  width: 262px; }
+  width: 262px;
+  margin-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000317}}
+.pets__title {
+  padding-bottom: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000321}}
+.card__container {
+  width: 990px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000325}}
+.slider {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000031}}
 .our-pets {
@@ -877,7 +953,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 0; }
+  padding: 30px 0 90px 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000038}}
 .navigation {

@@ -50,10 +50,11 @@ align-items: center;
     background: $color-light-xl;
     box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
+&:hover > button {
+    background-color: $color-primary-light;
+}
+& > button {
+   margin-bottom: 30px;
+}
 }
 
-.slider {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}

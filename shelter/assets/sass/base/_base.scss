@@ -24,7 +24,7 @@ h4 {
 }
 
 h5 {
-    @include font($size: 1.5rem, $height: 1.7rem);
+    @include font($size: 1.5rem, $height: 1.7rem,  $letter: 0.06em);
 }
 
 .paragraph-l {

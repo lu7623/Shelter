@@ -5,25 +5,24 @@
   background-repeat: no-repeat;
 }
 
-
 .about__title {
-        width: 340px;
-      margin-bottom: 0;
-        }
-        
-        .about__wrapper {
-          width: 850px;
-          padding-top: 60px;
-          padding-bottom: 98px;
-          margin: auto;
-          align-items: flex-end;
-        }
-        
-        .about__content {
-        width: 430px;
-        }
+  width: 340px;
+margin-top: 35px;
+}
 
-        .about_p {
-                margin-top: 23px;
-                margin-bottom: 28px;
-        }
+.about__wrapper {
+  width: 850px;
+  padding-top: 60px;
+  padding-bottom: 98px;
+  margin: auto;
+  align-items: flex-end;
+}
+
+.about__content {
+  width: 430px;
+}
+
+.about_p {
+  margin-top: 23px;
+  margin-bottom: 28px;
+}
