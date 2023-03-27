@@ -5,3 +5,19 @@
         color: $color-dark-3xl;
     }
 }
+
+.logo__subtitle_pets {
+        @extend %font-add;
+        @include font($size: 1.3rem, $height: 1.5rem, $color: $color-dark-3xl, $letter: 0.12rem);
+}
+
+.logo__pets {
+    color: $color-dark-l;
+}
+
+.header-pets__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
