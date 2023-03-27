@@ -6,20 +6,25 @@ body {
     @extend %font-prim;
 }
 
+h1 {
+    @include font($size: 3.2rem, $height: 3.5rem, $color: $color-primary, $letter: 0.06em);
+}
+
 h2 {
-    @include font($size: 5.7rem, $height: 4.4rem);
+    @include font($size: 4.4rem, $height: 5.7rem);
     }
 
 h3 {
-    @include font($size: 3.5rem, $height: 4.5rem);
+    @include font($size: 3.5rem, $height: 4.5rem, $letter: 0.06em);
 }
 
 h4 {
-    @include font($size: 2rem, $height: 2.3rem);
+    @include font($size: 2rem, $height: 2.3rem, $letter: 0.06em);
+    margin: 0;
 }
 
 h5 {
-    @include font($size: 1.5rem, $height: 1.7rem);
+    @include font($size: 1.5rem, $height: 1.7rem,  $letter: 0.06em);
 }
 
 .paragraph-l {
@@ -43,3 +48,4 @@ h5 {
 .color-prime {
     color: $color-primary;
 }
+

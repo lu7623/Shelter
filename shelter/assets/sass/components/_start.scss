@@ -1,5 +1,24 @@
 .start__img {
-width: 698px;
+    min-width: 698px;
 height: 728px;
 background-image: url("../img/images/start-screen-puppy.png");
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.start__title {
+    color: $color-light-xl;
+    padding-top: 127px;
+    margin: 35px 0;
+    padding-bottom:7px;
+    width: 310px;
+}
+
+.start__content{
+    max-width: 460px;
+}
+
+.start__button {
+    margin-top: 28px;
 }

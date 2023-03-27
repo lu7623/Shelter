@@ -1,0 +1,31 @@
+.help__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 73px;
+    margin: 0;
+}
+
+.help__item {
+  margin: 28px 60px;
+  height: 113px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.help__title {
+  text-align: center;
+  width: 310px;
+  padding-bottom: 30px;
+}
+
+.help__wrapper {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

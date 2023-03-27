@@ -1,0 +1,45 @@
+.our-pets {
+    background-color: $color-light-l;
+}
+
+.cards__container {
+ width: 1200px;
+}
+
+.cards__row {
+  margin-bottom: 30px;
+}
+
+.our-pets__wrapper {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.icon_nav {
+  width: 52px;
+  height: 52px;
+}
+
+.our-pets__nav {
+padding-top: 60px;
+} 
+.our-pets__2arrowleft {
+    background-image: url(../img/icons/button_2arrow_inactive.svg);
+}
+
+.our-pets__1arrowleft {
+    background-image: url(../img/icons/button_arrow_inactive.svg);
+}
+
+.our-pets__pagenum{
+    background-image: url(../img/icons/button_paginator_active.svg);
+}
+
+.our-pets__1arrowright {
+    background-image: url(../img/icons/button_arrow_active.svg);
+}
+
+.our-pets__2arrowright {
+    background-image: url(../img/icons/button_2arrow-active.svg);
+}

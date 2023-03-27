@@ -1,12 +1,7 @@
 .button {
     @extend %font-prim;
-    color: $color-dark-3xl;
+    @include font($size: 1.7rem, $height: 2.2rem, $color: $color-dark-3xl, $letter: 0.08rem);
     padding: 15px 45px;
-    font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 130%;
-letter-spacing: 0.06em;
     border-radius: 100px;
     cursor: pointer;
     @extend %transition;
