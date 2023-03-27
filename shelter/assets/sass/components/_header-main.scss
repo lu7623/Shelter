@@ -1,6 +1,8 @@
 .header__wrapper {
  display: flex;
  justify-content: space-between;
+ align-items: center;
+ padding: 60px 0;
 }
 
 .navigation {
@@ -13,13 +15,31 @@
         padding: 0;}
 }
 
-.link {
+.link { height: 27px;
     text-decoration: none;
+    
     &:hover {
         color: $color-light-s;
     }
 }
 
+.logo {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.logo__title {
+    margin-bottom: 10px;
+}
+
+.logo__subtitle {
+    @extend %font-add;
+    @include font($size: 1.3rem, $height: 1.5rem, $color: $color-light-xl, $letter: 0.12rem);
+}
+
 .link-active {
+    display: inline-block;
+    height: 27px;
     border-bottom: 3px solid $color-primary;
 }
