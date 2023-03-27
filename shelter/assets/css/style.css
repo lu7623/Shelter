@@ -1036,6 +1036,13 @@ h5 {
   align-items: center;
   padding: 30px 0 30px 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000325}}
+.link-active-pets {
+  display: inline-block;
+  height: 27px;
+  border-bottom: 3px solid #F1CDB3;
+  color: #292929; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
 .header__wrapper {
   display: flex;
@@ -1082,9 +1089,10 @@ h5 {
   letter-spacing: 0.12rem; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000341}}
-.link-active {
+.link-active-main {
   display: inline-block;
   height: 27px;
-  border-bottom: 3px solid #F1CDB3; }
+  border-bottom: 3px solid #F1CDB3;
+  color: #FAFAFA; }
 
 /*# sourceMappingURL=style.css.map */
