@@ -679,11 +679,62 @@ h5 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\000036}}
 .button-arrow-left {
+  border: 2px solid #F1CDB3;
+  border-radius: 26px;
   background-image: url("../img/icons/button_arrow.svg"); }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000310}}
+  .button-arrow-left:hover {
+    background-color: #FDDCC4;
+    border: 1px solid #FDDCC4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000316}}
 .button-arrow-right {
+  border: 2px solid #F1CDB3;
+  border-radius: 26px;
   background-image: url("../img/icons/button_arrow-right.svg"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000320}}
+  .button-arrow-right:hover {
+    background-color: #FDDCC4;
+    border: 1px solid #FDDCC4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000328}}
+.our-pets__2arrowleft {
+  background-image: url(../img/icons/button_2arrow_inactive.svg); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000332}}
+.our-pets__1arrowleft {
+  background-image: url(../img/icons/button_arrow_inactive.svg); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000336}}
+.our-pets__pagenum {
+  background-image: url(../img/icons/button_paginator_active.svg);
+  border-radius: 26px;
+  border: 2px solid #F1CDB3;
+  background-color: #F1CDB3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000341}}
+  .our-pets__pagenum:hover {
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000347}}
+.our-pets__1arrowright {
+  background-image: url(../img/icons/button_arrow_active.svg);
+  border-radius: 26px;
+  border: 2px solid #F1CDB3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000351}}
+  .our-pets__1arrowright:hover {
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000357}}
+.our-pets__2arrowright {
+  background-image: url(../img/icons/button_2arrow-active.svg);
+  border-radius: 26px;
+  border: 2px solid #F1CDB3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000361}}
+  .our-pets__2arrowright:hover {
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
 .wrapper {
@@ -906,26 +957,6 @@ h5 {
   justify-content: space-between;
   padding-top: 60px;
   margin-bottom: 100px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000339}}
-.our-pets__2arrowleft {
-  background-image: url(../img/icons/button_2arrow_inactive.svg); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000343}}
-.our-pets__1arrowleft {
-  background-image: url(../img/icons/button_arrow_inactive.svg); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000347}}
-.our-pets__pagenum {
-  background-image: url(../img/icons/button_paginator_active.svg); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000351}}
-.our-pets__1arrowright {
-  background-image: url(../img/icons/button_arrow_active.svg); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000355}}
-.our-pets__2arrowright {
-  background-image: url(../img/icons/button_2arrow-active.svg); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 .footer__wrapper {
