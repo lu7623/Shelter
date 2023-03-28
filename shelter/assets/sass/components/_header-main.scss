@@ -17,7 +17,7 @@
 
 .link { height: 27px;
     text-decoration: none;
-    
+    @extend %transition;
     &:hover {
         color: $color-light-s;
     }
