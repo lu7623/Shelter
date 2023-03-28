@@ -46,6 +46,7 @@ border-radius: 26px;
 .our-pets__pagenum{
     background-image: url(../img/icons/button_paginator_active.svg);
     background-color: $color-primary;
+    border: 2px solid $color-primary;
 }
 
 .our-pets__1arrowright {
