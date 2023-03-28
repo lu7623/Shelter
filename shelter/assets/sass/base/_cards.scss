@@ -50,6 +50,7 @@ align-items: center;
 &:hover {
     background: $color-light-xl;
     box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    cursor: pointer;
 }
 &:hover > button {
     background-color: $color-primary-light;
