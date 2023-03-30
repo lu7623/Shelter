@@ -38,7 +38,7 @@ background-size: cover;
 }
 
 .card {
-    width: 270px;
+width: 270px;
 height: 435px;
 background-color: $color-light-s;
 display: flex;
@@ -46,6 +46,7 @@ flex-wrap: wrap;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
+border-radius: 9px;
 @extend %transition;
 &:hover {
     background: $color-light-xl;
@@ -60,3 +61,8 @@ align-items: center;
 }
 }
 
+.card:last-child {
+    @include media-tablet {
+        display: none;
+    }
+}

@@ -11,7 +11,7 @@ flex-direction: column;
 
 .pets__button {
     width: 262px;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .pets__title {
@@ -20,6 +20,10 @@ flex-direction: column;
 
 .card__container {
     width: 990px;
+    @include media-tablet {
+        width: 580px;
+        @include columns($width: 48%);
+    }
 }
 
 .slider {

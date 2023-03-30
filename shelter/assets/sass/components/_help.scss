@@ -4,6 +4,7 @@
     justify-content: center;
     padding-bottom: 73px;
     margin: 0;
+   
 }
 
 .help__item {
@@ -14,6 +15,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  @include media-tablet {
+margin: 28px 30px;
+width: 170px;
+height: 113px;
+  }
 }
 
 .help__title {
@@ -27,5 +33,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+ 
 }
 
