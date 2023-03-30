@@ -9,6 +9,7 @@ flex-direction: column;
   align-items: center;
 }
 
+
 .pets__button {
     width: 262px;
     margin-bottom: 20px;
@@ -23,6 +24,17 @@ flex-direction: column;
     @include media-tablet {
         width: 580px;
         @include columns($width: 48%);
+    }
+}
+/*
+.card__container > .card:last-child {
+    @include media-tablet {
+        display: none;
+    }
+}*/
+.woody {
+    @include media-tablet {
+        overflow: hidden;
     }
 }
 

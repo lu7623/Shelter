@@ -61,8 +61,4 @@ border-radius: 9px;
 }
 }
 
-.card:last-child {
-    @include media-tablet {
-        display: none;
-    }
-}
+
