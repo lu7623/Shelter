@@ -16,10 +16,20 @@ margin-top: 35px;
   padding-bottom: 98px;
   margin: auto;
   align-items: flex-end;
+  @include media-tablet {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 435px;
+    padding-top: 45px;
+    padding-bottom: 100px;
+  }
 }
 
 .about__content {
   width: 430px;
+  @include media-tablet {
+    margin-bottom: 62px;
+  }
 }
 
 .about_p {

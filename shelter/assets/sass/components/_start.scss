@@ -5,6 +5,11 @@ background-image: url("../img/images/start-screen-puppy.png");
 background-size:cover;
 background-repeat: no-repeat;
 background-position: center;
+ @include media-tablet {
+width: 569px;
+height: 593px;
+background-size:contain;
+ }
 }
 
 .start__title {
@@ -13,12 +18,30 @@ background-position: center;
     margin: 35px 0;
     padding-bottom:7px;
     width: 310px;
+    @include media-tablet {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
 .start__content{
     max-width: 460px;
+    @include media-tablet {
+margin: 0 55px 100px 55px;
+    }
 }
 
 .start__button {
     margin-top: 28px;
+    @include media-tablet {
+        margin-left: 122px;
+    }
+}
+
+.start__wrapper {
+    @include media-tablet {
+       flex-direction: column;
+       width: 569px;
+       margin: auto;
+    }
 }
