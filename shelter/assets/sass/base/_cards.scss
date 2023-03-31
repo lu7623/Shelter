@@ -47,6 +47,7 @@ flex-direction: column;
 justify-content: space-between;
 align-items: center;
 border-radius: 9px;
+overflow: hidden;
 @extend %transition;
 &:hover {
     background: $color-light-xl;

@@ -7,6 +7,10 @@ display: flex;
 flex-direction: column;
   padding: 80px 0;
   align-items: center;
+  @include media-mobile {
+    padding-top: 42px;
+    padding-bottom: 22px;
+  }
 }
 
 
@@ -17,6 +21,9 @@ flex-direction: column;
 
 .pets__title {
     padding-bottom: 60px;
+    @include media-mobile {
+        padding-bottom: 40px;
+    }
 }
 
 .card__container {
@@ -25,6 +32,14 @@ flex-direction: column;
         width: 580px;
         @include columns($width: 48%);
     }
+    @include media-mobile {
+        width: 270px;
+        order: 1;
+        height: 435px;
+        flex-wrap: wrap;
+        overflow: hidden;
+    margin-bottom: 23px;
+    }
 }
 /*
 .card__container > .card:last-child {
@@ -32,16 +47,17 @@ flex-direction: column;
         display: none;
     }
 }*/
-.woody {
-    @include media-tablet {
-        overflow: hidden;
-    }
-}
+
 
 .slider {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
+    @extend %transition;
+    @include media-mobile {
+width: 270px;
+flex-wrap: wrap;
+margin-bottom: 40px;
+    }
 }

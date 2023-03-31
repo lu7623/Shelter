@@ -13,10 +13,18 @@ border-radius: 26px;
 
 .button-arrow-left {
     background-image: url('../img/icons/button_arrow.svg');
+    @include media-mobile {
+        order: 2;
+        margin-left: 40px;
+    }
 }
 
 .button-arrow-right {
     background-image: url('../img/icons/button_arrow-right.svg');
+    @include media-mobile {
+        order: 2;
+        margin-right: 40px;
+    }
 }
 
 .arrow_nav {
