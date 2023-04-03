@@ -10,22 +10,36 @@
     @include media-tablet {
         margin-bottom: 30px;
     }
+    @include media-mobile {
+        margin-bottom: 40px;
+        margin-top: 42px;
+    }
 }
 
 .cards__container {
  max-width: 1200px;
+
  @include media-tablet {
     width: 580px;
+    height: 1365px;
+    overflow: hidden;
+ }
+ @include media-mobile {
+    width: 270px;
  }
 }
 
 .cards__row {
   margin-bottom: 30px;
+  @include columns($width: 21%);
   @include media-tablet {
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 0;
     @include columns($width: 48%);
+  }
+  @include media-mobile {
+    width: 100%;
   }
 }
 
@@ -60,23 +74,9 @@ margin-bottom: 100px;
     padding-top: 38px;
     margin-bottom: 78px;
 }
+@include media-mobile {
+    padding-top: 46px;
+    margin-bottom: 40px;
+}
 } 
 
-
-.scarlett {
-    @include media-tablet {
-        overflow: hidden;
-    }
-}
-
-.freddie {
-    @include media-tablet {
-        overflow: hidden;
-    }
-}
-
-.charly {
-    @include media-tablet {
-        margin-left: 40px;
-    }
-}

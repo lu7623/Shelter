@@ -1,10 +1,10 @@
 .pets {
-    background-color: $color-light-l;
-} 
+  background-color: $color-light-l;
+}
 
 .pets__wrapper {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   padding: 80px 0;
   align-items: center;
   @include media-mobile {
@@ -13,48 +13,46 @@ flex-direction: column;
   }
 }
 
-
 .pets__button {
-    width: 262px;
-    margin-bottom: 20px;
+  width: 262px;
+  margin-bottom: 20px;
 }
 
 .pets__title {
-    padding-bottom: 60px;
-    @include media-mobile {
-        padding-bottom: 40px;
-    }
+  padding-bottom: 60px;
+  @include media-mobile {
+    padding-bottom: 40px;
+  }
 }
 
 .card__container {
-    width: 990px;
-    @include columns($width: 30%);
-    @include media-tablet {
-        width: 580px;
-        @include columns($width: 48%);
-        overflow: hidden;
-        flex-wrap: wrap;
-        height: 435px;
-    }
-    @include media-mobile {
-        @include columns($width: 100%);
-        width: 270px;
-        order: 1;
+  width: 990px;
+  @include columns($width: 30%);
+  @include media-tablet {
+    width: 580px;
+    @include columns($width: 48%);
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 435px;
+  }
+  @include media-mobile {
+    @include columns($width: 100%);
+    width: 270px;
+    order: 1;
     margin-bottom: 23px;
-    }
+  }
 }
 
-
 .slider {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 60px;
-    @extend %transition;
-    @include media-mobile {
-width: 270px;
-flex-wrap: wrap;
-margin-bottom: 40px;
-    }
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  @extend %transition;
+  @include media-mobile {
+    width: 270px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
 }
