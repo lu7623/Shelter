@@ -3,12 +3,18 @@
     @include media-tablet {
         flex-wrap: wrap;
         justify-content: center;
+        padding: 0;
     }
 }
 
 .footer__title {
     color: $color-light-xl;
     padding-right: 10px;
+
+    @include media-mobile {
+        text-align: center;
+        padding: 0;
+    }
 }
 
 .footer__img {
@@ -21,6 +27,12 @@ margin-left: 40px;
 @include media-tablet {
     margin-left: 0;
     margin-top: 64px;
+}
+@include media-mobile {
+    width: 260px;
+height: 269px;
+background-size: cover;
+margin-top: 40px;
 }
 }
 
@@ -58,10 +70,28 @@ padding-left: 20px;
     }
 }
 
+.footer__address {
+    @include media-mobile {
+        height:230px;
+    }
+}
+
+.footer__address > h3 {
+    @include media-mobile {
+    width: 280px;
+    padding: 8px 0 0 18px;
+    }
+}
+
 .footer__location {
     width: 320px;
     @include media-tablet {
         width: 300px;
+    }
+    @include media-mobile {
+        width: 252px;
+    height: 206px;
+    align-items: center;
     }
 }
 

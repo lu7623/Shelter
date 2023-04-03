@@ -28,29 +28,26 @@ flex-direction: column;
 
 .card__container {
     width: 990px;
+    @include columns($width: 30%);
     @include media-tablet {
         width: 580px;
         @include columns($width: 48%);
+        overflow: hidden;
+        flex-wrap: wrap;
+        height: 435px;
     }
     @include media-mobile {
+        @include columns($width: 100%);
         width: 270px;
         order: 1;
-        height: 435px;
-        flex-wrap: wrap;
-        overflow: hidden;
     margin-bottom: 23px;
     }
 }
-/*
-.card__container > .card:last-child {
-    @include media-tablet {
-        display: none;
-    }
-}*/
 
 
 .slider {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;

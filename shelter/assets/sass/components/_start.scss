@@ -11,7 +11,7 @@ background-position: center;
 min-width: 569px;
 height: 593px;
 background-size: contain;
-margin-left: 74px;
+margin-left: 44px;
  }
  @include media-mobile {
     background-image: url("../img/images/start-screen-puppy-mobile.png");
@@ -43,7 +43,7 @@ width: 250px;
     max-width: 460px;
     @extend %transition;
     @include media-tablet {
-margin: 0 55px 98px 55px;
+        margin: 0 25px 98px 25px;
     }
     @include media-mobile {
         margin: 0;

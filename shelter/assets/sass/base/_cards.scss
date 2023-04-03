@@ -59,6 +59,10 @@ overflow: hidden;
 }
 & > button {
    margin-bottom: 30px;
+   @include media-mobile {
+    margin-bottom: 26px;
+    padding: 13px 45px;
+   }
 }
 }
 

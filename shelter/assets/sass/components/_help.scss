@@ -2,11 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 73px;
+    padding-bottom: 70px;
     margin: 0;
    @include media-mobile {
     justify-content: flex-start;
-    padding-bottom: 23px;
+    padding-bottom: 25px;
    }
 }
 
@@ -43,6 +43,7 @@ height: 113px;
   padding-bottom: 30px;
   @include media-mobile {
     width: 250px;
+    padding-bottom: 28px;
   }
 }
 
@@ -52,6 +53,9 @@ height: 113px;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+  @include media-tablet {
+    padding: 80px 0 0 0;
+  }
  @include media-mobile {
   padding-top: 42px;
  }
