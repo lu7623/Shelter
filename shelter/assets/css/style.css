@@ -719,7 +719,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000314}}
 .button-arrow-left {
   background-image: url("../img/icons/button_arrow.svg"); }
-  @media (max-width: 760px) {
+  @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000314}}
     .button-arrow-left {
       order: 2;
@@ -728,7 +728,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000322}}
 .button-arrow-right {
   background-image: url("../img/icons/button_arrow-right.svg"); }
-  @media (max-width: 760px) {
+  @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000322}}
     .button-arrow-right {
       order: 2;
@@ -771,7 +771,7 @@ h5 {
 .our-pets__2arrowright {
   background-image: url(../img/icons/button_2arrow-active.svg); }
 
-@media (max-width: 760px) {
+@media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\000031}}
   .burger {
     width: 30px;
@@ -791,7 +791,7 @@ h5 {
     .wrapper {
       max-width: 708px;
       padding: 0 30px; } }
-  @media (max-width: 760px) {
+  @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
     .wrapper {
       max-width: 500px; } }
@@ -832,7 +832,7 @@ h5 {
       height: 593px;
       background-size: contain;
       margin-left: 44px; } }
-  @media (max-width: 760px) {
+  @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\000031}}
     .start__img {
       background-image: url("../img/images/start-screen-puppy-mobile.png");
@@ -902,7 +902,7 @@ h5 {
   width: 300px;
   height: 408px;
   background-repeat: no-repeat; }
-  @media (max-width: 760px) {
+  @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\000031}}
     .about__img {
       width: 260px;
@@ -975,7 +975,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000031}}
     .donation__img {
       margin-top: 58px; } }
-  @media (max-width: 760px) {
+  @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000031}}
     .donation__img {
       width: 260px;
@@ -1024,40 +1024,36 @@ h5 {
   @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000340}}
     .donation__content {
-      width: 300px;
-      height: fit-content; } }
-  @media (max-width: 520px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000340}}
-    .donation__content {
       display: block;
       height: 281px;
-      padding: 0 13px; } }
+      padding: 0 13px;
+      width: 300px; } }
   @media (max-width: 520px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000359}}
     .donation__content > h5 {
       letter-spacing: normal;
       padding-bottom: 24px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000367}}
 .donation__wrapper {
   width: 915px;
   margin: auto;
   padding: 80px 0 100px 0;
   align-items: center; }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000367}}
     .donation__wrapper {
       flex-direction: column-reverse;
       align-items: center;
       width: fit-content; } }
   @media (max-width: 520px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000367}}
     .donation__wrapper {
       padding: 42px 0;
       align-items: flex-start; } }
 
 @media (max-width: 520px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000383}}
   .donation__number {
     font-size: 1.5rem;
     font-style: normal;
@@ -1067,7 +1063,7 @@ h5 {
     letter-spacing: 0.06em; } }
 
 @media (max-width: 520px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000389}}
   .donation__title {
     text-align: center;
     padding-bottom: 24px; } }
@@ -1193,7 +1189,7 @@ h5 {
       overflow: hidden;
       flex-wrap: wrap;
       height: 435px; } }
-  @media (max-width: 760px) {
+  @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000328}}
     .card__container {
       display: flex;
@@ -1209,7 +1205,7 @@ h5 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 60px; }
-  @media (max-width: 760px) {
+  @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000347}}
     .slider {
       width: 270px;
@@ -1252,7 +1248,7 @@ h5 {
       width: 580px;
       height: 1365px;
       overflow: hidden; } }
-  @media (max-width: 760px) {
+  @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000321}}
     .cards__container {
       width: 270px; } }
@@ -1481,7 +1477,7 @@ h5 {
   border-bottom: 3px solid #F1CDB3;
   color: #292929; }
 
-@media (max-width: 760px) {
+@media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000350}}
   .header__nav {
     display: none; } }
@@ -1555,7 +1551,7 @@ h5 {
   border-bottom: 3px solid #F1CDB3;
   color: #FAFAFA; }
 
-@media (max-width: 760px) {
+@media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000369}}
   .header__nav {
     display: none; } }
