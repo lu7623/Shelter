@@ -51,13 +51,10 @@ height: 43px;
         }
     }
     @include media-mobile {
-        width: 300px;
-        height: fit-content;
-    }
-    @include media-mobile {
         display: block;
         height: 281px;
         padding: 0 13px;
+        width: 300px;
     }
     & > h5 {
         @include media-mobile {

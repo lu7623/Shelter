@@ -49,8 +49,11 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 55px;
   @extend %transition;
+  @include media-tablet {
+    margin-bottom: 58px;
+  }
   @include media-tabletsmall{
     width: 270px;
     flex-wrap: wrap;
