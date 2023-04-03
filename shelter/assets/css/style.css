@@ -418,7 +418,7 @@ a {
   box-sizing: border-box; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000031}}
-.button, .card, .slider__arrow, .arrow_active, .start__img, .start__title, .start__content, .slider, .footer__contact h4, .link {
+.button, .card, .slider__arrow, .arrow_active, .start__img, .start__title, .start__content, .help__content, .card__container, .slider, .our-pets__header, .cards__container, .cards__row, .footer__wrapper, .footer__contact, .footer__contact h4, .footer__block, .header-pets__wrapper, .link {
   transition: all .3s ease-out; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000035}}
@@ -451,7 +451,7 @@ h2 {
   line-height: 5.7rem;
   color: #545454;
   letter-spacing: normal; }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000314}}
     h2 {
       font-size: 2.5rem;
@@ -469,7 +469,7 @@ h3 {
   line-height: 4.5rem;
   color: #545454;
   letter-spacing: 0.06em; }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000321}}
     h3 {
       font-size: 2.5rem;
@@ -567,7 +567,7 @@ h5 {
 .needs__img {
   width: 60px;
   height: 60px; }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\000039}}
     .needs__img {
       width: 50px;
@@ -698,7 +698,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000360}}
   .card > button {
     margin-bottom: 30px; }
-    @media (max-width: 500px) {
+    @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000360}}
       .card > button {
         margin-bottom: 26px;
@@ -719,7 +719,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000314}}
 .button-arrow-left {
   background-image: url("../img/icons/button_arrow.svg"); }
-  @media (max-width: 500px) {
+  @media (max-width: 760px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000314}}
     .button-arrow-left {
       order: 2;
@@ -728,7 +728,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000322}}
 .button-arrow-right {
   background-image: url("../img/icons/button_arrow-right.svg"); }
-  @media (max-width: 500px) {
+  @media (max-width: 760px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000322}}
     .button-arrow-right {
       order: 2;
@@ -771,24 +771,31 @@ h5 {
 .our-pets__2arrowright {
   background-image: url(../img/icons/button_2arrow-active.svg); }
 
-@media (max-width: 500px) {
+@media (max-width: 760px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\000031}}
   .burger {
     width: 30px;
     height: 22px;
-    background-image: url(../img/icons/Burger.png);
     background-size: cover; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
 .wrapper {
   max-width: 1200px;
   margin: auto; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
+    .wrapper {
+      padding: 0 20px; } }
   @media (max-width: 1000px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
     .wrapper {
       max-width: 708px;
       padding: 0 30px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
+    .wrapper {
+      max-width: 500px; } }
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
     .wrapper {
       min-width: 300px;
@@ -817,7 +824,7 @@ h5 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
-  @media (max-width: 1000px) {
+  @media (max-width: 1230px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\000031}}
     .start__img {
       background-image: url("../img/images/start-screen-puppy-768.png");
@@ -825,7 +832,7 @@ h5 {
       height: 593px;
       background-size: contain;
       margin-left: 44px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 760px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\000031}}
     .start__img {
       background-image: url("../img/images/start-screen-puppy-mobile.png");
@@ -846,7 +853,7 @@ h5 {
       padding-top: 0;
       padding-bottom: 0;
       margin: 30px 0 42px 0; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000324}}
     .start__title {
       margin: 29px auto 40px;
@@ -859,7 +866,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000342}}
     .start__content {
       margin: 0 25px 98px 25px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000342}}
     .start__content {
       margin: 0;
@@ -872,7 +879,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000354}}
     .start__button {
       margin-left: 124px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000354}}
     .start__button {
       margin: 30px; } }
@@ -883,7 +890,7 @@ h5 {
     flex-direction: column;
     width: 569px;
     margin: auto; } }
-@media (max-width: 500px) {
+@media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000364}}
   .start__wrapper {
     width: fit-content;
@@ -895,7 +902,7 @@ h5 {
   width: 300px;
   height: 408px;
   background-repeat: no-repeat; }
-  @media (max-width: 500px) {
+  @media (max-width: 760px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\000031}}
     .about__img {
       width: 260px;
@@ -906,7 +913,7 @@ h5 {
 .about__title {
   width: 340px;
   margin-top: 35px; }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000313}}
     .about__title {
       width: 250px;
@@ -928,7 +935,7 @@ h5 {
       max-width: 435px;
       padding-top: 45px;
       padding-bottom: 100px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000323}}
     .about__wrapper {
       padding-top: 40px;
@@ -941,7 +948,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000342}}
     .about__content {
       margin-bottom: 62px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000342}}
     .about__content {
       width: 270px;
@@ -952,7 +959,7 @@ h5 {
 .about_p {
   margin-top: 26px;
   margin-bottom: 28px; }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000354}}
     .about_p {
       margin-bottom: 20px; } }
@@ -968,7 +975,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000031}}
     .donation__img {
       margin-top: 58px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 760px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000031}}
     .donation__img {
       width: 260px;
@@ -993,7 +1000,7 @@ h5 {
   .donation__card:hover {
     background-color: #FDDCC4;
     cursor: pointer; }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000322}}
     .donation__card {
       width: 281px;
@@ -1009,23 +1016,23 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000346}}
   .donation__content > p {
     margin: 0; }
-    @media (max-width: 500px) {
+    @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000346}}
       .donation__content > p {
         margin-top: 20px;
         text-align: justify; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000340}}
     .donation__content {
       width: 300px;
       height: fit-content; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000340}}
     .donation__content {
       display: block;
       height: 281px;
       padding: 0 13px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000362}}
     .donation__content > h5 {
       letter-spacing: normal;
@@ -1043,13 +1050,13 @@ h5 {
       flex-direction: column-reverse;
       align-items: center;
       width: fit-content; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000370}}
     .donation__wrapper {
       padding: 42px 0;
       align-items: flex-start; } }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000386}}
   .donation__number {
     font-size: 1.5rem;
@@ -1059,7 +1066,7 @@ h5 {
     color: #545454;
     letter-spacing: 0.06em; } }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000392}}
   .donation__title {
     text-align: center;
@@ -1072,13 +1079,13 @@ h5 {
   justify-content: center;
   padding-bottom: 70px;
   margin: 0; }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\000031}}
     .help__content {
       justify-content: flex-start;
       padding-bottom: 25px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000314}}
 .help__item {
   margin: 28px 60px;
   height: 113px;
@@ -1088,13 +1095,13 @@ h5 {
   align-items: center;
   justify-content: space-between; }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000314}}
     .help__item {
       margin: 28px 30px;
       width: 170px;
       height: 113px; } }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000313}}
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000314}}
     .help__item {
       margin: 15px 15px;
       height: 87px;
@@ -1106,8 +1113,8 @@ h5 {
       color: #545454;
       letter-spacing: 0.06em; } }
 
-@media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000334}}
+@media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000335}}
   .needs__text {
     font-size: 1.5rem;
     font-style: normal;
@@ -1116,18 +1123,18 @@ h5 {
     color: #545454;
     letter-spacing: 0.06em; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000341}}
 .help__title {
   text-align: center;
   width: 310px;
   padding-bottom: 30px; }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000340}}
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000341}}
     .help__title {
       width: 250px;
       padding-bottom: 28px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000351}}
 .help__wrapper {
   padding-top: 80px;
   display: flex;
@@ -1135,11 +1142,11 @@ h5 {
   justify-content: center;
   margin: auto; }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000351}}
     .help__wrapper {
       padding: 80px 0 0 0; } }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000350}}
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000351}}
     .help__wrapper {
       padding-top: 42px; } }
 
@@ -1153,7 +1160,7 @@ h5 {
   flex-direction: column;
   padding: 80px 0;
   align-items: center; }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\000035}}
     .pets__wrapper {
       padding-top: 42px;
@@ -1167,7 +1174,7 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000321}}
 .pets__title {
   padding-bottom: 60px; }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000321}}
     .pets__title {
       padding-bottom: 40px; } }
@@ -1186,7 +1193,7 @@ h5 {
       overflow: hidden;
       flex-wrap: wrap;
       height: 435px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 760px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000328}}
     .card__container {
       display: flex;
@@ -1195,15 +1202,15 @@ h5 {
       order: 1;
       margin-bottom: 23px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000347}}
 .slider {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 60px; }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000346}}
+  @media (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000347}}
     .slider {
       width: 270px;
       flex-wrap: wrap;
@@ -1223,64 +1230,80 @@ h5 {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000035}}
     .our-pets__header {
       margin-bottom: 30px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000035}}
     .our-pets__header {
       margin-bottom: 40px;
-      margin-top: 42px; } }
+      margin-top: 42px;
+      width: fit-content; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000321}}
 .cards__container {
   max-width: 1200px; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000321}}
+    .cards__container {
+      width: 900px;
+      height: 930px;
+      overflow: hidden; } }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000321}}
     .cards__container {
       width: 580px;
       height: 1365px;
       overflow: hidden; } }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000319}}
+  @media (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000321}}
     .cards__container {
       width: 270px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000339}}
 .cards__row {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000339}}
+    .cards__row {
+      width: fit-content; } }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000339}}
     .cards__row {
       flex-wrap: wrap;
       width: 100%;
       margin-bottom: 0;
       display: flex;
       justify-content: space-between; } }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000332}}
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000339}}
     .cards__row {
       width: 100%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000358}}
 .cards__row > .card {
   margin-right: 40px; }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000358}}
     .cards__row > .card {
       margin-right: 0;
       margin-bottom: 30px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000367}}
 .cards__row > .card:last-child {
   margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000372}}
 .our-pets__wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000372}}
+    .our-pets__wrapper {
+      flex-direction: column;
+      align-items: center; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000382}}
 .our-pets__nav {
   width: 340px;
   display: flex;
@@ -1288,19 +1311,24 @@ h5 {
   padding-top: 60px;
   margin-bottom: 100px; }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000382}}
     .our-pets__nav {
       padding-top: 38px;
       margin-bottom: 78px; } }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000367}}
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000382}}
     .our-pets__nav {
       padding-top: 46px;
-      margin-bottom: 40px; } }
+      margin-bottom: 40px;
+      width: 300px; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 .footer__wrapper {
   display: flex; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+    .footer__wrapper {
+      justify-content: space-between; } }
   @media (max-width: 1000px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\000031}}
     .footer__wrapper {
@@ -1308,17 +1336,17 @@ h5 {
       justify-content: center;
       padding: 0; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000314}}
 .footer__title {
   color: #FFFFFF;
   padding-right: 10px; }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000310}}
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000314}}
     .footer__title {
       text-align: center;
       padding: 0; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000324}}
 .footer__img {
   background-image: url("../img/images/footer-puppy.png");
   width: 300px;
@@ -1327,36 +1355,36 @@ h5 {
   margin-top: 40px;
   margin-left: 40px; }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000324}}
     .footer__img {
       margin-left: 0;
       margin-top: 64px; } }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000320}}
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000324}}
     .footer__img {
       width: 260px;
       height: 269px;
       background-size: cover;
       margin-top: 40px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000343}}
 .footer__contact {
   display: flex;
   align-items: center;
   justify-content: flex-start; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000350}}
 .footer__contact h4 {
   padding-left: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000353}}
   .footer__contact h4:hover {
     color: #FAFAFA; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000358}}
 .gradient_background {
   background: url(../img/images/95577108af837b8b441616746225b66e.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%), #211f20; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000364}}
 .footer__block {
   display: flex;
   flex-direction: column;
@@ -1365,39 +1393,43 @@ h5 {
   height: 234px;
   margin-top: 56px;
   margin-right: 120px; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000364}}
+    .footer__block {
+      margin-right: 0; } }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000364}}
     .footer__block {
       margin-top: 32px;
       margin-right: 18px;
       margin-left: 18px; } }
 
-@media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000374}}
+@media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000383}}
   .footer__address {
     height: 230px; } }
 
-@media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000380}}
+@media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000389}}
   .footer__address > h3 {
     width: 280px;
     padding: 8px 0 0 18px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000396}}
 .footer__location {
   width: 320px; }
   @media (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000396}}
     .footer__location {
       width: 300px; } }
-  @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000387}}
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000396}}
     .footer__location {
       width: 252px;
       height: 206px;
       align-items: center; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\00003108}}
 .footer__location_long {
   width: 280px; }
 
@@ -1428,26 +1460,35 @@ h5 {
   justify-content: space-between;
   align-items: center;
   padding: 30px 0; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000323}}
+    .header-pets__wrapper {
+      padding-left: 20px;
+      padding-right: 20px; } }
   @media (max-width: 1000px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000323}}
     .header-pets__wrapper {
       padding: 30px 0px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000323}}
     .header-pets__wrapper {
       padding: 30px 20px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000343}}
 .link-active-pets {
   display: inline-block;
   height: 27px;
   border-bottom: 3px solid #F1CDB3;
   color: #292929; }
 
-@media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000345}}
+@media (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000350}}
   .header__nav {
     display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000356}}
+.burger__pets {
+  background-image: url(../img/icons/Burger-pets.png); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
 .header__wrapper {
@@ -1455,45 +1496,50 @@ h5 {
   justify-content: space-between;
   align-items: center;
   padding: 30px 0 90px 0; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
+    .header__wrapper {
+      padding-left: 20px;
+      padding-right: 20px; } }
   @media (max-width: 1000px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
     .header__wrapper {
       padding: 30px 0px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
     .header__wrapper {
       padding: 30px 20px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000320}}
 .navigation {
   display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000324}}
 .navigation__link {
   padding-left: 35px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000327}}
   .navigation__link:first-of-type {
     padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000332}}
 .link {
   height: 27px;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000337}}
   .link:hover {
     color: #FAFAFA; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000342}}
 .logo {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000348}}
 .logo__title {
   margin-bottom: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000352}}
 .logo__subtitle {
   font-size: 1.3rem;
   font-style: normal;
@@ -1502,16 +1548,20 @@ h5 {
   color: #FFFFFF;
   letter-spacing: 0.12em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000362}}
 .link-active-main {
   display: inline-block;
   height: 27px;
   border-bottom: 3px solid #F1CDB3;
   color: #FAFAFA; }
 
-@media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000365}}
+@media (max-width: 760px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000369}}
   .header__nav {
     display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000375}}
+.burger__main {
+  background-image: url(../img/icons/Burger.png); }
 
 /*# sourceMappingURL=style.css.map */

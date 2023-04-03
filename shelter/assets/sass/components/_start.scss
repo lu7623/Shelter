@@ -6,14 +6,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  @include media-tablet {
+  @include media-laptop {
     background-image: url("../img/images/start-screen-puppy-768.png");
     min-width: 569px;
     height: 593px;
     background-size: contain;
     margin-left: 44px;
   }
-  @include media-mobile {
+  @include media-tabletsmall{
     background-image: url("../img/images/start-screen-puppy-mobile.png");
     min-width: 260px;
     height: 272px;

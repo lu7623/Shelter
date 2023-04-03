@@ -27,6 +27,7 @@
 
 .card__container {
   width: 990px;
+  @extend %transition;
   @include columns($width: 30%);
   @include media-tablet {
     width: 580px;
@@ -35,7 +36,7 @@
     flex-wrap: wrap;
     height: 435px;
   }
-  @include media-mobile {
+  @include media-tabletsmall {
     @include columns($width: 100%);
     width: 270px;
     order: 1;
@@ -50,7 +51,7 @@
   align-items: center;
   margin-bottom: 60px;
   @extend %transition;
-  @include media-mobile {
+  @include media-tabletsmall{
     width: 270px;
     flex-wrap: wrap;
     margin-bottom: 40px;

@@ -1,5 +1,9 @@
 .footer__wrapper {
   display: flex;
+  @extend %transition;
+  @include media-laptop {
+    justify-content: space-between;
+  }
   @include media-tablet {
     flex-wrap: wrap;
     justify-content: center;
@@ -37,6 +41,7 @@
 }
 
 .footer__contact {
+  @extend %transition;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -64,6 +69,10 @@
   height: 234px;
   margin-top: 56px;
   margin-right: 120px;
+  @extend %transition;
+  @include media-laptop {
+    margin-right: 0;
+  }
   @include media-tablet {
     margin-top: 32px;
     margin-right: 18px;

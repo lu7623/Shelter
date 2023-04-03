@@ -3,7 +3,7 @@
   width: 300px;
   height: 408px;
   background-repeat: no-repeat;
-  @include media-mobile {
+  @include media-tabletsmall {
     width: 260px;
 height: 353.6px;
 background-size: contain;
