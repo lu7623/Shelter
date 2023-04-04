@@ -1073,12 +1073,12 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 70px;
+  padding-bottom: 72px;
   margin: 0; }
   @media (max-width: 520px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\000031}}
     .help__content {
-      justify-content: flex-start;
+      justify-content: space-between;
       padding-bottom: 25px; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000314}}
@@ -1204,7 +1204,11 @@ h5 {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px; }
+  margin-bottom: 55px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000347}}
+    .slider {
+      margin-bottom: 58px; } }
   @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000347}}
     .slider {
@@ -1304,7 +1308,7 @@ h5 {
   width: 340px;
   display: flex;
   justify-content: space-between;
-  padding-top: 60px;
+  padding-top: 30px;
   margin-bottom: 100px; }
   @media (max-width: 1000px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000382}}
