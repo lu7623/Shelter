@@ -6,7 +6,7 @@
   margin: 0;
   @extend %transition;
   @include media-mobile {
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-bottom: 25px;
   }
 }
