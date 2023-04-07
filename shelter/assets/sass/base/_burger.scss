@@ -3,5 +3,39 @@
         width: 30px;
         height: 22px;
         background-size: cover;
+       z-index: 999;
     }
 }
+
+.burger-open {
+    position: relative;
+
+    transform: rotate(90deg);
+    z-index: 999;
+}
+
+.burger__nav {
+    @extend %transition;
+    @include media-tabletsmall {
+        display: block;
+width: 320px;
+height: 823px;
+background-color: $color-dark-3xl;
+position: absolute; 
+right: 0;
+top:0;
+ transform: translate(320px);
+
+    }
+}
+
+.burger__nav-open {
+    @extend %transition;
+transform: translate(0px);
+}
+
+.burger__main {
+    background-image: url(../img/icons/Burger.png);
+  }
+
+

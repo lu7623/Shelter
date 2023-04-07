@@ -7,6 +7,10 @@ body {
     @extend %font-prim;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 h1 {
     @include font($size: 3.2rem, $height: 3.5rem, $color: $color-primary, $letter: 0.06em);
 }
