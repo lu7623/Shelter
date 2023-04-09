@@ -3,19 +3,25 @@
 const burger = document.querySelector('.burger');
 const burgerNav  = document.querySelector('.burger__nav');
 const navigation = document.querySelector('.navigation');
-const body = document.querySelector('body');
 const navLinks = document.querySelectorAll('.link');
+const burgerOverlay = document.querySelector('.burger__overlay');
+const body = document.querySelector('body');
+
 burger.addEventListener('click', function(){ 
     if (!burger.classList.contains('burger-open')) {
     burger.classList.add('burger-open');
     burgerNav.classList.add('burger__nav-open');
     navigation.classList.add('navigation-open');
-    body.classList.add('no-scroll');}
+    body.classList.add('no-scroll');
+    burgerOverlay.classList.add('burger__overlay-open');
+}
     else {
         burger.classList.remove('burger-open');
     burgerNav.classList.remove('burger__nav-open');
     navigation.classList.remove('navigation-open');
-    body.classList.remove('no-scroll');}
+    body.classList.remove('no-scroll');
+    burgerOverlay.classList.remove('burger__overlay-open')
+}
     }
 )
 for (let link of navLinks) {
@@ -24,6 +30,7 @@ for (let link of navLinks) {
         burgerNav.classList.remove('burger__nav-open');
         navigation.classList.remove('navigation-open');
         body.classList.remove('no-scroll');
+        burgerOverlay.classList.remove('burger__overlay-open')
     });
   }
 
