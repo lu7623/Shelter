@@ -3,5 +3,65 @@
         width: 30px;
         height: 22px;
         background-size: cover;
+       z-index: 999;
     }
+}
+
+.burger-open {
+    position: relative;
+    transform: rotate(90deg);
+    z-index: 999;
+}
+
+.burger__nav
+ {
+    z-index: 100;
+    @extend %transition;
+    @include media-tabletsmall {
+        display: block;
+width: 320px;
+height: 823px;
+background-color: $color-dark-3xl;
+position: absolute; 
+right: 0;
+top:0;
+ transform: translate(320px);
+
+    }
+}
+
+.burger__nav-pets {
+    @include media-tabletsmall {
+    background-color: $color-light-l;
+    }
+} 
+
+.burger__nav-open {
+    @extend %transition;
+transform: translate(0px);
+}
+
+.burger__main {
+    background-image: url(../img/icons/Burger.png);
+  }
+
+.burger__pets {
+    background-image: url(../img/icons/Burger-pets.png);
+  }
+
+
+.burger__overlay
+ {
+    background: rgba(41, 41, 41, 0.6);
+  z-index: 10;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.burger__overlay-open {
+    display: block;
 }
