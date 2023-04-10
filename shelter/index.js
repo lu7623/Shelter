@@ -117,10 +117,20 @@ parent.append(card);
 card.addEventListener ('click', function() { getModalWindow(x)})
 }
 
-const sliderContainer = document.querySelector('.slider__container');
+const sliderItemLeft = document.querySelector('.item-left');
+const sliderItemCenter = document.querySelector('.item-center');
+const sliderItemRight = document.querySelector('.item-right');
 let currArr = getRandomArr (3);
+let prevArr = getRandomArr (3);
+let nextArr = getRandomArr (3);
 currArr.forEach((n) => {
-    getCard (sliderContainer, n);
+    getCard (sliderItemCenter, n);
+});
+prevArr.forEach((n) => {
+    getCard (sliderItemLeft, n);
+});
+nextArr.forEach((n) => {
+    getCard (sliderItemRight, n);
 })
 
 
