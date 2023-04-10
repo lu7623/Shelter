@@ -93,7 +93,7 @@ function getRandomArr (length) {
 }
 
 
-async function getCard (parent,x) {
+async function getCard (parent, x) {
     const pets = "pets.json";
     const res = await fetch(pets);
     const data = await res.json();
@@ -113,16 +113,18 @@ cardBtn.textContent = 'Learn more';
 card.append(cardImg);
 card.append(cardTitle);
 card.append(cardBtn);
+card.addEventListener ('click', function() { getModalWindow(x)});
 parent.append(card);
-card.addEventListener ('click', function() { getModalWindow(x)})
 }
 
 const sliderItemLeft = document.querySelector('.item-left');
 const sliderItemCenter = document.querySelector('.item-center');
 const sliderItemRight = document.querySelector('.item-right');
+const carousel = document.querySelector('.carousel')
 let currArr = getRandomArr (3);
 let prevArr = getRandomArr (3);
 let nextArr = getRandomArr (3);
+
 currArr.forEach((n) => {
     getCard (sliderItemCenter, n);
 });
@@ -131,6 +133,48 @@ prevArr.forEach((n) => {
 });
 nextArr.forEach((n) => {
     getCard (sliderItemRight, n);
+});
+
+
+const leftBtn = document.querySelector('.button-arrow-left');
+const rightBtn = document.querySelector('.button-arrow-right');
+
+
+const moveLeft = () => {
+    carousel.classList.add("transition-left");
+    leftBtn.removeEventListener("click", moveLeft);
+    rightBtn.removeEventListener("click", moveRight);
+};
+
+const moveRight = () => {
+    carousel.classList.add("transition-right");
+    leftBtn.removeEventListener("click", moveLeft);
+    rightBtn.removeEventListener("click", moveRight);
+};
+
+leftBtn.addEventListener("click", moveLeft);
+rightBtn.addEventListener("click", moveRight);
+
+carousel.addEventListener("animationend", (animationEvent) => {
+    let changedItem;
+  if (animationEvent.animationName === "move-left") {
+    carousel.classList.remove("transition-left");
+    changedItem = sliderItemLeft;
+    document.querySelector("#item-active").innerHTML = sliderItemLeft.innerHTML;
+
+  } else if (animationEvent.animationName === "move-right") {
+    carousel.classList.remove("transition-right");
+    changedItem = sliderItemRight;
+    sliderItemCenter.innerHTML = sliderItemRight.innerHTML;
+
+  }
+ let arr = getRandomArr (3);
+ changedItem.replaceChildren();
+ for (let i=0; i<3; i++) {
+    getCard(changedItem, arr[i])
+ }
+  leftBtn.addEventListener("click", moveLeft);
+rightBtn.addEventListener("click", moveRight);
 })
 
 

@@ -23,10 +23,9 @@ width: 320px;
 height: 823px;
 background-color: $color-dark-3xl;
 position: absolute; 
-right: 0;
+right: -320px;
 top:0;
- transform: translate(320px);
-
+ 
     }
 }
 
@@ -38,7 +37,7 @@ top:0;
 
 .burger__nav-open {
     @extend %transition;
-transform: translate(0px);
+transform: translate(-320px);
 }
 
 .burger__main {
