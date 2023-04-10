@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="assets/css/style.css" >
+    <link rel="icon" href="assets/favicon-32x32.png">
+    <title>Pets</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper header-pets__wrapper">
+        <div class="logo">
+          <a href="index.html">
+            <h1 class="logo__title logo__pets">Cozy House</h1>
+            <h4 class="logo__subtitle_pets">Shelter for pets in Boston</h4>
+          </a>
+        </div>
+      
+        <div class="burger__overlay"> </div>
+        <div class="burger__pets burger"></div>
+        <nav class="burger__nav burger__nav-pets">
+          <ul class="navigation">
+            <li class="navigation__link">
+              <a class="link link-pets" href="index.html"
+                >About the shelter</a
+              >
+            </li>
+            <li class="navigation__link">
+              <a
+                class="link  link-pets link-active-pets "
+                href="#no_scroll"
+                >Our pets</a
+              >
+            </li>
+            <li class="navigation__link">
+              <a class="link link-pets" href="index.html#help"
+                >Help the shelter</a
+              >
+            </li>
+            <li class="navigation__link">
+              <a class="link link-pets" href="#footer-pets">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="our-pets">
+      <div class="wrapper our-pets__wrapper">
+        <div class="our-pets__header">
+          <h3>Our friends who</h3>
+          <h3>are looking for a house</h3>
+        </div>
+        <div class="modal">
+          <div class="modal__wrapper">
+            
+            <div class="modal__window">
+              <div class="modal__img"></div>
+              <div class="modal__content">
+                <h3 class="modal__title"></h3>
+                <h4 class="modal__subtitle"> <span class="pet-type"> </span> - <span class="pet-breed"></span> </h4>
+                <h5 class="modal__text">                </h5>
+
+                <ul class="modal__list">
+                  <li class="modal__listitem">
+                    <h5><span class="bold">Age:</span> <span class="pet-age"></span> </h5>
+                  </li>
+                  <li class="modal__listitem">
+                    <h5><span class="bold">Inoculations:</span> <span class="pet-inoculations"></span> </h5>
+                  </li>
+                  <li class="modal__listitem">
+                    <h5><span class="bold">Diseases:</span> <span class="pet-diseases"></span> </h5>
+                  </li>
+                  <li class="modal__listitem">
+                    <h5><span class="bold">Parasites:</span> <span class="pet-parasites"></span> </h5>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal__btn"></div>
+          </div>
+        </div>
+        <div class="cards__container">
+        </div>
+        <div class="our-pets__nav">
+          <div class="icon arrow_nav our-pets__2arrowleft"></div>
+          <div class="icon arrow_nav our-pets__1arrowleft"></div>
+          <div class="icon arrow_nav our-pets__pagenum"></div>
+          <div class="icon arrow_nav arrow_active our-pets__1arrowright"></div>
+          <div class="icon arrow_nav arrow_active our-pets__2arrowright"></div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer gradient_background" id="footer-pets">
+      <div class="wrapper footer__wrapper">
+        <div class="footer__block footer__location">
+          <h3 class="footer__title">For questions and suggestions</h3>
+          <a href="mailto:email@shelter.com">
+            <div class="footer__contact">
+              <div class="contact__logo email"></div>
+              <h4 class="color-prime">email@shelter.com</h4>
+            </div>
+          </a>
+          <a href="tel:+136745677554">
+            <div class="footer__contact">
+              <div class="contact__logo phone"></div>
+              <h4 class="color-prime">+13 674 567 75 54</h4>
+            </div>
+          </a>
+        </div>
+        <div class="footer__block footer__address">
+          <h3 class="footer__title">We are waiting for your visit</h3>
+          <a href="https://goo.gl/maps/uFYBKDgL4R7QkGEZ7" target="_blank">
+            <div class="footer__contact">
+              <div class="marker"></div>
+              <h4 class="color-prime footer__location_long">
+                1 Central Street, Boston (entrance from the store)
+              </h4>
+            </div></a
+          >
+          <a href="https://goo.gl/maps/ieyhSuuJyYWNGHYx6" target="_blank">
+            <div class="footer__contact">
+              <div class="marker"></div>
+              <h4 class="color-prime">18 South Park, London</h4>
+            </div>
+          </a>
+        </div>
+        <div class="footer__img"></div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

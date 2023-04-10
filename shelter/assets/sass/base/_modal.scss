@@ -1,0 +1,153 @@
+.modal {
+  background: rgba(41, 41, 41, 0.6);
+  z-index: 10;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal_open {
+  display: block;
+}
+
+.modal__wrapper {
+  z-index: 90;
+  width: 952px;
+  height: 552px;
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @include media-tablet {
+    width: 682px;
+    height: 402px;
+  }
+}
+
+.modal__window {
+  background-color: $color-light-s;
+  width: 900px;
+  height: 500px;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+  border-radius: 9px;
+  display: flex;
+  position: relative;
+  @include media-tablet {
+    width: 630px;
+    height: 350px;
+  }
+  @include media-tabletsmall {
+    width: 240px;
+    height: 341px;
+  }
+}
+
+.modal__btn {
+  width: 52px;
+  height: 52px;
+  @extend %transition;
+  border: 2px solid $color-primary;
+  border-radius: 26px;
+  background-image: url(../img/icons/close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: flex-start;
+  justify-self: right;
+  &:hover {
+    background-color: $color-primary-light;
+    border: 2px solid $color-primary-light;
+  }
+}
+
+.modal__img {
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include media-tablet {
+    width: 350px;
+    height: 350px;
+  }
+  @include media-tabletsmall {
+    display: none;
+  }
+}
+
+.modal__content {
+  width: 350px;
+  height: 362px;
+  margin: 50px 20px 0 29px;
+  @include media-tablet {
+    width: 261px;
+    height: 303px;
+    margin: 10px 9px 0 11px;
+  }
+  @include media-tabletsmall {
+    width: 240px;
+    height: 341px;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.modal__title {
+  padding-bottom: 10px;
+  color: black;
+  @include media-tabletsmall {
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+  }
+}
+
+.modal__subtitle {
+  padding-bottom: 40px;
+  color: black;
+  @include media-tablet {
+    padding-bottom: 20px;
+  }
+  @include media-tabletsmall {
+    text-align: center;
+  }
+}
+
+.modal__text {
+  padding-bottom: 32px;
+  color: black;
+  @include media-tablet {
+    font-size: 13px;
+    line-height: 110%;
+    padding-bottom: 20px;
+    letter-spacing: 0.06em;
+  }
+  @include media-tabletsmall {
+    text-align: justify;
+  }
+}
+
+.modal__list {
+  list-style: disc;
+  color: $color-primary;
+  margin-left: 15px;
+  @include media-tablet {
+    margin-top: 0;
+  }
+}
+
+.modal__listitem {
+  padding-bottom: 11px;
+  @include media-tablet {
+    padding-bottom: 6px;
+  }
+}
+
+.modal__listitem > h5 {
+  color: black;
+}
