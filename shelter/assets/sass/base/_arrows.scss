@@ -31,9 +31,16 @@ border-radius: 26px;
     width: 52px;
     height: 52px;
     border-radius: 26px;
+    font-size: 20px;
   }
 
+.arrow_inactive {
+    color: $color-dark-s;
+    border: 2px solid $color-dark-s;
+}
+
 .arrow_active {
+    color: $color-dark-3xl;
     border: 2px solid $color-primary;
     @extend %transition;
     &:hover {
@@ -43,24 +50,24 @@ border-radius: 26px;
     }
 }
 
-.our-pets__2arrowleft {
-    background-image: url(../img/icons/button_2arrow_inactive.svg);
-}
+// .our-pets__2arrowleft {
+//     background-image: url(../img/icons/button_2arrow_inactive.svg);
+// }
 
-.our-pets__1arrowleft {
-    background-image: url(../img/icons/button_arrow_inactive.svg);
-}
+// .our-pets__1arrowleft {
+//     background-image: url(../img/icons/button_arrow_inactive.svg);
+// }
 
 .our-pets__pagenum{
-    background-image: url(../img/icons/button_paginator_active.svg);
+    font-size: 16px;
     background-color: $color-primary;
     border: 2px solid $color-primary;
 }
 
-.our-pets__1arrowright {
-    background-image: url(../img/icons/button_arrow_active.svg);
-}
+// .our-pets__1arrowright {
+//     background-image: url(../img/icons/button_arrow_active.svg);
+// }
 
-.our-pets__2arrowright {
-    background-image: url(../img/icons/button_2arrow-active.svg);
-}
+// .our-pets__2arrowright {
+//     background-image: url(../img/icons/button_2arrow-active.svg);
+// }

@@ -120,7 +120,99 @@ parent.append(card);
 //pagination
 
 const cardContainer = document.querySelector('.cards__container');
-let cardArr = getRandomArr (8);
-cardArr.forEach((n) => {
+const arrowLeft = document.querySelector('.our-pets__1arrowleft');
+const doubleArrowLeft = document.querySelector('.our-pets__2arrowleft');
+const arrowRight = document.querySelector('.our-pets__1arrowright');
+const doubleArrowRight = document.querySelector('.our-pets__2arrowright');
+const paginator = document.querySelector('.our-pets__pagenum');
+let number =1;
+paginator.textContent = number;
+
+const cardArray = [];
+for (let i=0; i<6; i++) {
+    cardArray[i] = getRandomArr (8)
+}
+console.log(cardArray);
+cardArray[0].forEach((n) => {
     getCard (cardContainer, n);
+});
+
+const rightMove = () => {
+    if (number < 6) {
+        number = number + 1;
+    paginator.textContent = number;
+    cardContainer.replaceChildren();
+    cardArray[number-1].forEach((n) => {
+        getCard (cardContainer, n);
+    })
+    arrowLeft.classList.add('arrow_active');
+    doubleArrowLeft.classList.add('arrow_active');
+}
+if (number == 6) {
+    arrowRight.classList.remove('arrow_active');
+    doubleArrowRight.classList.remove('arrow_active'); 
+    arrowRight.classList.add('arrow_inactive');
+    doubleArrowRight.classList.add('arrow_inactive'); 
+}
+}
+
+const leftMove = () => {
+    if (number > 1) {
+    number = number - 1;
+paginator.textContent = number;
+cardContainer.replaceChildren();
+cardArray[number-1].forEach((n) => {
+    getCard (cardContainer, n);
+});
+    }
+    if (number == 1) {
+        arrowLeft.classList.remove('arrow_active');
+        doubleArrowLeft.classList.remove('arrow_active'); 
+        arrowLeft.classList.add('arrow_inactive');
+        doubleArrowLeft.classList.add('arrow_inactive'); 
+    }
+};
+
+arrowRight.addEventListener('click', rightMove);
+arrowLeft.addEventListener('click', leftMove);
+
+const toLastPage = () => {
+    if (number != 6) {
+    number = 6;
+    paginator.textContent = 6;
+    cardContainer.replaceChildren();
+    cardArray[5].forEach((n) => {
+        getCard (cardContainer, n);
+    });
+    arrowLeft.classList.remove('arrow_inactive');
+    doubleArrowLeft.classList.remove('arrow_inactive'); 
+    arrowLeft.classList.add('arrow_active');
+    doubleArrowLeft.classList.add('arrow_active');
+    arrowRight.classList.remove('arrow_active');
+    doubleArrowRight.classList.remove('arrow_active'); 
+    arrowRight.classList.add('arrow_inactive');
+    doubleArrowRight.classList.add('arrow_inactive'); 
+}
+};
+
+const toFirstPage = () => {
+    if (number != 1) {
+    number = 1;
+    paginator.textContent = 1;
+    cardContainer.replaceChildren();
+    cardArray[0].forEach((n) => {
+        getCard (cardContainer, n);
 })
+arrowLeft.classList.add('arrow_inactive');
+    doubleArrowLeft.classList.add('arrow_inactive'); 
+    arrowLeft.classList.remove('arrow_active');
+    doubleArrowLeft.classList.remove('arrow_active');
+    arrowRight.classList.add('arrow_active');
+    doubleArrowRight.classList.add('arrow_active'); 
+    arrowRight.classList.remove('arrow_inactive');
+    doubleArrowRight.classList.remove('arrow_inactive'); 
+    }
+};
+
+doubleArrowRight.addEventListener('click', toLastPage);
+doubleArrowLeft.addEventListener('click', toFirstPage);
