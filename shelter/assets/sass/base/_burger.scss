@@ -1,4 +1,8 @@
 .burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @extend %transition;
     @include media-tabletsmall {
         width: 30px;
         height: 22px;
@@ -8,6 +12,7 @@
 }
 
 .burger-open {
+    @extend %transition;
     position: relative;
     transform: rotate(90deg);
     z-index: 999;
@@ -41,16 +46,35 @@ transform: translate(-320px);
 }
 
 .burger__main {
-    background-image: url(../img/icons/Burger.png);
+transition: all 500ms ease-in-out;
+  //  background-image: url(../img/icons/Burger.png);
   }
 
 .burger__pets {
-    background-image: url(../img/icons/Burger-pets.png);
+    transition: all 500ms ease-in-out;
+
   }
 
+  .burger__main > span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: $color-primary;
+    transition: all 0.5s;
+  }
+
+  .burger__pets > span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    transition: all 0.5s;
+  }
+  
 
 .burger__overlay
  {
+    @extend %transition;
     background: rgba(41, 41, 41, 0.6);
   z-index: 10;
   display: none;
