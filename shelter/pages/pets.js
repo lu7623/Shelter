@@ -145,9 +145,15 @@ const rightMove = () => {
     cardArray[number-1].forEach((n) => {
         getCard (cardContainer, n);
     })
-        } else {
-            arrowRight.removeEventListener("click", rightMove);
-        }
+    arrowLeft.classList.add('arrow_active');
+    doubleArrowLeft.classList.add('arrow_active');
+}
+if (number == 6) {
+    arrowRight.classList.remove('arrow_active');
+    doubleArrowRight.classList.remove('arrow_active'); 
+    arrowRight.classList.add('arrow_inactive');
+    doubleArrowRight.classList.add('arrow_inactive'); 
+}
 }
 
 const leftMove = () => {
@@ -157,7 +163,13 @@ paginator.textContent = number;
 cardContainer.replaceChildren();
 cardArray[number-1].forEach((n) => {
     getCard (cardContainer, n);
-})
+});
+    }
+    if (number == 1) {
+        arrowLeft.classList.remove('arrow_active');
+        doubleArrowLeft.classList.remove('arrow_active'); 
+        arrowLeft.classList.add('arrow_inactive');
+        doubleArrowLeft.classList.add('arrow_inactive'); 
     }
 };
 
@@ -165,19 +177,41 @@ arrowRight.addEventListener('click', rightMove);
 arrowLeft.addEventListener('click', leftMove);
 
 const toLastPage = () => {
+    if (number != 6) {
+    number = 6;
     paginator.textContent = 6;
     cardContainer.replaceChildren();
     cardArray[5].forEach((n) => {
         getCard (cardContainer, n);
-    })
+    });
+    arrowLeft.classList.remove('arrow_inactive');
+    doubleArrowLeft.classList.remove('arrow_inactive'); 
+    arrowLeft.classList.add('arrow_active');
+    doubleArrowLeft.classList.add('arrow_active');
+    arrowRight.classList.remove('arrow_active');
+    doubleArrowRight.classList.remove('arrow_active'); 
+    arrowRight.classList.add('arrow_inactive');
+    doubleArrowRight.classList.add('arrow_inactive'); 
+}
 };
 
 const toFirstPage = () => {
+    if (number != 1) {
+    number = 1;
     paginator.textContent = 1;
     cardContainer.replaceChildren();
     cardArray[0].forEach((n) => {
         getCard (cardContainer, n);
 })
+arrowLeft.classList.add('arrow_inactive');
+    doubleArrowLeft.classList.add('arrow_inactive'); 
+    arrowLeft.classList.remove('arrow_active');
+    doubleArrowLeft.classList.remove('arrow_active');
+    arrowRight.classList.add('arrow_active');
+    doubleArrowRight.classList.add('arrow_active'); 
+    arrowRight.classList.remove('arrow_inactive');
+    doubleArrowRight.classList.remove('arrow_inactive'); 
+    }
 };
 
 doubleArrowRight.addEventListener('click', toLastPage);
