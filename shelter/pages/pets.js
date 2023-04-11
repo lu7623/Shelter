@@ -120,7 +120,65 @@ parent.append(card);
 //pagination
 
 const cardContainer = document.querySelector('.cards__container');
-let cardArr = getRandomArr (8);
-cardArr.forEach((n) => {
+const arrowLeft = document.querySelector('.our-pets__1arrowleft');
+const doubleArrowLeft = document.querySelector('.our-pets__2arrowleft');
+const arrowRight = document.querySelector('.our-pets__1arrowright');
+const doubleArrowRight = document.querySelector('.our-pets__2arrowright');
+const paginator = document.querySelector('.our-pets__pagenum');
+let number =1;
+paginator.textContent = number;
+
+const cardArray = [];
+for (let i=0; i<6; i++) {
+    cardArray[i] = getRandomArr (8)
+}
+console.log(cardArray);
+cardArray[0].forEach((n) => {
+    getCard (cardContainer, n);
+});
+
+const rightMove = () => {
+    if (number < 6) {
+        number = number + 1;
+    paginator.textContent = number;
+    cardContainer.replaceChildren();
+    cardArray[number-1].forEach((n) => {
+        getCard (cardContainer, n);
+    })
+        } else {
+            arrowRight.removeEventListener("click", rightMove);
+        }
+}
+
+const leftMove = () => {
+    if (number > 1) {
+    number = number - 1;
+paginator.textContent = number;
+cardContainer.replaceChildren();
+cardArray[number-1].forEach((n) => {
     getCard (cardContainer, n);
 })
+    }
+};
+
+arrowRight.addEventListener('click', rightMove);
+arrowLeft.addEventListener('click', leftMove);
+
+const toLastPage = () => {
+    paginator.textContent = 6;
+    cardContainer.replaceChildren();
+    cardArray[5].forEach((n) => {
+        getCard (cardContainer, n);
+    })
+};
+
+const toFirstPage = () => {
+    paginator.textContent = 1;
+    cardContainer.replaceChildren();
+    cardArray[0].forEach((n) => {
+        getCard (cardContainer, n);
+})
+};
+
+doubleArrowRight.addEventListener('click', toLastPage);
+doubleArrowLeft.addEventListener('click', toFirstPage);

@@ -763,7 +763,7 @@ h5 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000354}}
 .our-pets__pagenum {
-  background-image: url(../img/icons/button_paginator_active.svg);
+  font-size: 16px;
   background-color: #F1CDB3;
   border: 2px solid #F1CDB3; }
 
