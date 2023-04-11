@@ -51,7 +51,7 @@ for (let link of navLinks) {
   const modalItems= modalWindow.childNodes
 
   async function getModalWindow(x) {
-    const pets = "pets.json";
+    const pets = "pet.json";
     const res = await fetch(pets);
     const data = await res.json();
   modalTitle.textContent = data[x].name;
@@ -79,8 +79,6 @@ document.addEventListener("mouseup", function (e) {
     }
    });
 
-// slider
-
 function getRandomArr (length) {
     const randArr = [];
     while (randArr.length < length) {
@@ -94,7 +92,7 @@ function getRandomArr (length) {
 
 
 async function getCard (parent, x) {
-    const pets = "pets.json";
+    const pets = "pet.json";
     const res = await fetch(pets);
     const data = await res.json();
 const card = document.createElement('div');
