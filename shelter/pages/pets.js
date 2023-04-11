@@ -34,6 +34,16 @@ for (let link of navLinks) {
     });
   }
 
+  document.addEventListener("mouseup", function (e) {
+    if ( e.target.classList.contains("burger__overlay-open")) { 
+        burger.classList.remove('burger-open');
+        burgerNav.classList.remove('burger__nav-open');
+        navigation.classList.remove('navigation-open');
+        body.classList.remove('no-scroll');
+        burgerOverlay.classList.remove('burger__overlay-open')
+ }
+});
+
   //modal windows
 
   const modal = document.querySelector('.modal');
