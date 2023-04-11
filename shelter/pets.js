@@ -99,7 +99,7 @@ async function getCard (parent, x) {
     const data = await res.json();
 const card = document.createElement('div');
 card.classList.add('card');
-card.classList.add(x);
+card.classList.add(`pet-${x}`);
 const cardImg = document.createElement('div');
 cardImg.classList.add('card__img');
 cardImg.style.backgroundImage =`url(${data[x].img})`;
@@ -117,98 +117,10 @@ card.addEventListener ('click', function() { getModalWindow(x)});
 parent.append(card);
 }
 
-const sliderItemLeft = document.querySelector('.item-left');
-const sliderItemCenter = document.querySelector('.item-center');
-const sliderItemRight = document.querySelector('.item-right');
-const carousel = document.querySelector('.carousel')
-let currArr = getRandomArr (3);
+//pagination
 
-function getDifferentArr (arr){
-let diffArr = getRandomArr (3);
-for ( let j=0; j<3; j++) {
-if (arr.includes(diffArr[j])) return getDifferentArr(arr);
-}
-return diffArr
-}
-
-let nextArr = getDifferentArr (currArr);
-let prevArr = getDifferentArr(currArr);
-
-currArr.forEach((n) => {
-    getCard (sliderItemCenter, n);
-});
-prevArr.forEach((n) => {
-    getCard (sliderItemLeft, n);
-});
-nextArr.forEach((n) => {
-    getCard (sliderItemRight, n);
-});
-console.log(prevArr, currArr, nextArr);
-
-const leftBtn = document.querySelector('.button-arrow-left');
-const rightBtn = document.querySelector('.button-arrow-right');
-
-
-const moveLeft = () => {
-    carousel.classList.add("transition-left");
-    leftBtn.removeEventListener("click", moveLeft);
-    rightBtn.removeEventListener("click", moveRight);
-    console.log(sliderItemLeft.childNodes[1].classList[1]);
-};
-
-const moveRight = () => {
-    carousel.classList.add("transition-right");
-    leftBtn.removeEventListener("click", moveLeft);
-    rightBtn.removeEventListener("click", moveRight);
-};
-
-leftBtn.addEventListener("click", moveLeft);
-rightBtn.addEventListener("click", moveRight);
-
-
-carousel.addEventListener("animationend", (animationEvent) => {
-    let changedItem;
-    let changedArr;
-  if (animationEvent.animationName === "move-left") {
-    carousel.classList.remove("transition-left");
-    changedItem = sliderItemLeft;
-    changedArr = getDifferentArr(prevArr);
-    document.querySelector("#item-active").innerHTML = sliderItemLeft.innerHTML;
-    nextArr.splice(0,3);
-    for (let i=0; i<3; i++) {
-        nextArr.push(currArr[i]);}
-
-    currArr.splice(0,3);
-    for (let i=0; i<3; i++) {
-     currArr.push(prevArr[i]);
-     prevArr[i] = changedArr[i]; 
-     
-     sliderItemCenter.childNodes[i].addEventListener ('click', function() { getModalWindow(sliderItemCenter.childNodes[i].classList[1])});}
-     console.log(prevArr, currArr, nextArr);
-    }
- else {
-    carousel.classList.remove("transition-right");
-    changedItem = sliderItemRight;
-    changedArr = getDifferentArr(nextArr);
-    sliderItemCenter.innerHTML = sliderItemRight.innerHTML;
-    prevArr.splice(0,3);
-    for (let i=0; i<3; i++) {
-        prevArr.push(currArr[i]);}
-
-    currArr.splice(0,3);
-    for (let i=0; i<3; i++) {
-     currArr.push(nextArr[i]);
-     nextArr[i] = changedArr[i]; 
-     
-     sliderItemCenter.childNodes[i].addEventListener ('click', function() { getModalWindow(sliderItemCenter.childNodes[i].classList[1])});}
-     console.log(prevArr, currArr, nextArr);
-  }
- changedItem.replaceChildren();
- for (let i=0; i<3; i++) {
-  getCard(changedItem, changedArr[i]);
-}
-
-  leftBtn.addEventListener("click", moveLeft);
-rightBtn.addEventListener("click", moveRight);
+const cardContainer = document.querySelector('.cards__container');
+let cardArr = getRandomArr (8);
+cardArr.forEach((n) => {
+    getCard (cardContainer, n);
 })
-
