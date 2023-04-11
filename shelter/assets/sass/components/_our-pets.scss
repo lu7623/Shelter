@@ -1,79 +1,75 @@
 .our-pets {
-    background-color: $color-light-l;
+  background-color: $color-light-l;
 }
 
 .our-pets__header {
-    margin-top: 80px;
-    width: 400px;
-    text-align: center;
-    margin-bottom: 60px;
-    @extend %transition;
-    @include media-tablet {
-        margin-bottom: 30px;
-    }
-    @include media-mobile {
-        margin-bottom: 40px;
-        margin-top: 42px;
-        width: fit-content;
-    }
+  margin-top: 80px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 60px;
+  @extend %transition;
+  @include media-tablet {
+    margin-bottom: 30px;
+  }
+  @include media-mobile {
+    margin-bottom: 40px;
+    margin-top: 42px;
+    width: fit-content;
+  }
 }
 
 .cards__container {
-    display: flex;
- max-width: 1200px;
- @include columns($width: 21%);
- @extend %transition;
- flex-wrap: wrap;
-@include media-laptop {
+  display: flex;
+  max-width: 1200px;
+  @include columns($width: 21%);
+  @extend %transition;
+  flex-wrap: wrap;
+  @include media-laptop {
     width: 900px;
     height: 930px;
     overflow: hidden;
-    width:fit-content;
-}
- @include media-tablet {
+    width: fit-content;
+  }
+  @include media-tablet {
     width: 580px;
     height: 1365px;
     overflow: hidden;
     width: 100%;
     margin-bottom: 0;
     @include columns($width: 48%);
- }
- @include media-tabletsmall {
+  }
+  @include media-tabletsmall {
     width: 270px;
- }
+  }
 }
-
-
 
 .cards__container > .card {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-
 
 .our-pets__wrapper {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-@include media-tablet {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  @include media-tablet {
     flex-direction: column;
     align-items: center;
-}
+  }
 }
 
 .our-pets__nav {
-    width: 340px;
-    display: flex;
-    justify-content: space-between;
-padding-top: 30px;
-margin-bottom: 100px;
-@include media-tablet {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-bottom: 100px;
+  @include media-tablet {
     padding-top: 38px;
     margin-bottom: 78px;
-}
-@include media-mobile {
+  }
+  @include media-mobile {
     padding-top: 46px;
     margin-bottom: 40px;
     width: 300px;
+  }
 }
-} 
-
