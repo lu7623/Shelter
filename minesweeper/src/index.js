@@ -1,0 +1,54 @@
+const body = document.querySelector('body');
+const main = document.createElement('main');
+body.append(main);
+main.classList.add('main-container');
+const title = document.createElement('h1');
+title.innerText = 'RSS Minesweeper';
+title.classList.add('title');
+const gameContainer = document.createElement('div');
+gameContainer.classList.add('game-container');
+main.append(title);
+main.append(gameContainer);
+const levelCheck = document.createElement('div');
+levelCheck.classList.add('level-check');
+gameContainer.append(levelCheck);
+const levels = ['beginner', 'master', 'expert'];
+levels.forEach((lvl) => {
+   const levelConteiner = document.createElement('div');
+   levelConteiner.classList.add('level');
+    const check = document.createElement('input');
+    check.setAttribute('type', 'radio');
+    check.id = lvl;
+    check.name = 'level';
+    const label = document.createElement('label');
+    label.innerText = lvl;
+    label.setAttribute('for', 'level');
+    levelConteiner.append(check);
+    levelConteiner.append(label);
+    levelCheck.append(levelConteiner);
+});
+const panel = document.createElement('div');
+panel.classList.add('panel');
+const counter = document.createElement('div');
+counter.classList.add('counter');
+counter.value = 10;
+counter.innerText = counter.value.toString().padStart(3, '0');
+const replay = document.createElement('div');
+replay.classList.add('replay');
+const timer = document.createElement('div');
+timer.classList.add('timer');
+timer.value = 0;
+timer.innerText = timer.value.toString().padStart(3, '0');
+gameContainer.append(panel);
+panel.append(counter);
+panel.append(replay);
+panel.append(timer);
+const field = document.createElement('div');
+field.classList.add('field');
+gameContainer.append(field);
+for (let i=0; i<100; i++) {
+    const cell = document.createElement('div');
+    cell.classList.add('cell');
+    field.append(cell);
+}
+
