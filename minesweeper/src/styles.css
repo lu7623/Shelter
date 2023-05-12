@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.game {
+.game-container {
     background-color: lightgrey;
     padding: 10px;
     border-top: 4px solid white;
@@ -45,7 +45,6 @@ border-top: 4px solid grey;
 .field {
     width: 400px;
     height: 400px;
-    background-color: bisque;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -94,6 +93,10 @@ color: chartreuse;
     border-bottom: 4px solid grey;
     border-right: 4px solid grey;
     padding: 3px;
+    background-image: url(../assets/smile.png);
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;
 }
 
 .smile {
