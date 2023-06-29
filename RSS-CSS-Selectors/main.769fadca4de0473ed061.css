@@ -1,0 +1,621 @@
+/*!*******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss ***!
+  \*******************************************************************************************************************************************************/
+.tooltip, .task, .levels, .footer, .heading, button {
+  font-family: "Poppins", sans-serif;
+}
+
+.html-container, #answer, .css-container, pre {
+  font-family: "Source Code Pro", monospace;
+}
+
+board, #table-area, .table-section, .levels-top, .levels, .html-container, #answer-field, .css-container, .footer, header, .elem-heading, .wrapper, main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+sushi.unagi, sause, board, ginger, wasabi, roll, plate, sushi, ramen, rice {
+  filter: drop-shadow(5px 5px 10px #484747);
+}
+
+.selected, board > * :hover {
+  filter: drop-shadow(5px 5px 10px #FFFFFF);
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(f0342da0465545233df7.jpg);
+  background-size: contain;
+}
+
+main {
+  width: 90vw;
+  height: calc(100vh - 110px);
+  margin: auto;
+  padding: 5px;
+}
+
+.game-container {
+  width: 75%;
+  height: 100%;
+}
+
+.code-container {
+  width: 100%;
+  height: 65%;
+  display: flex;
+}
+
+.wrapper {
+  height: 98%;
+  width: 98%;
+  background-color: rgba(74, 194, 213, 0.8235294118);
+  border-radius: 1rem;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #444444;
+  border-radius: 0.5rem;
+  padding: 0 3px;
+  background-color: azure;
+  border-color: darkgrey;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 3px 0px #848484;
+}
+
+.help {
+  width: fit-content;
+}
+
+.reset {
+  height: fit-content;
+}
+
+.elem-heading {
+  justify-content: space-between;
+  padding: 2px 1rem;
+  border-radius: 1rem 1rem 0 0;
+  background-color: lightgray;
+}
+
+.row-number {
+  background-color: rgb(240, 239, 239);
+  width: 3rem;
+  text-align: center;
+  border-right: 8px solid rgba(240, 239, 239, 0);
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-row {
+  height: 26px;
+}
+
+.elem-content {
+  display: flex;
+}
+
+pre {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #444444;
+  position: relative;
+}
+
+.target {
+  animation: myAnim 3s linear 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  10%, 30%, 50%, 70% {
+    transform: translateY(-8px);
+  }
+  20%, 40%, 60% {
+    transform: translateY(8px);
+  }
+  80% {
+    transform: translateY(6.4px);
+  }
+  90% {
+    transform: translateY(-6.4px);
+  }
+}
+.wrong {
+  animation: myAnim2 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim2 {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
+}
+.help {
+  animation: animated-text 3s steps(30, end) 1 normal both;
+}
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 300px;
+  }
+}
+.right {
+  animation: myAnim3 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim3 {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+.entrance {
+  animation: myAnim4 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim4 {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+header {
+  background: rgb(0, 7, 65);
+  background: linear-gradient(90deg, rgba(0, 7, 65, 0.8744747899) 0%, rgb(29, 155, 176) 57%, rgba(5, 149, 178, 0.8016456583) 79%);
+  height: 40px;
+  justify-content: flex-start;
+}
+
+.heading {
+  margin-left: 224px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #F1CDB3;
+}
+
+.footer {
+  height: 60px;
+  background-color: #1d9bba;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #F1CDB3;
+}
+
+.gh-link {
+  display: block;
+  background-image: url(925aa8e685ab0217bb34.png);
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+}
+
+.rs-link {
+  display: block;
+  background-image: url(ca626375304dad1829ed.jpg);
+  width: 85px;
+  height: 40px;
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.css-container {
+  width: 50%;
+  height: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+.css-content {
+  width: 97%;
+  height: 97%;
+  background-color: rgba(250, 250, 250, 0.8549019608);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+#answer-field {
+  justify-content: space-between;
+  height: 26px;
+  width: 100%;
+}
+
+#answer {
+  border: none;
+  width: 30rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+#answer:focus,
+.answer-background {
+  width: 30rem;
+  color: #212529;
+  background-color: #fff;
+  border-color: #bdbdbd;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.css-code {
+  width: 90%;
+  margin-left: 5px;
+}
+
+.html-container {
+  height: 100%;
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+.levels {
+  height: 100%;
+  width: 25%;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+.levels-top {
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+}
+
+#levels-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 15px 0 35px;
+  overflow: hidden;
+  background: rgb(34, 173, 195);
+  background: linear-gradient(180deg, rgb(34, 173, 195) 0%, rgb(187, 237, 244) 100%);
+}
+
+.levels-heading {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #444444;
+  font-weight: 800;
+  margin: 0;
+}
+
+.level-list,
+.level-name {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #565656;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.level-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.level-name:hover {
+  color: bisque;
+}
+
+.level-list {
+  line-height: 2.2rem;
+  width: 100%;
+}
+
+.level-description {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #565656;
+  background-color: rgba(240, 255, 255, 0.4);
+  padding: 3px;
+}
+
+.marked {
+  background-color: azure;
+}
+
+.level-checked {
+  text-decoration: underline;
+  color: bisque;
+}
+
+.level-description-hidden {
+  visibility: hidden;
+  height: 0;
+}
+
+.level-description-open {
+  margin: 5px 0;
+}
+
+.green-check {
+  width: 4rem;
+  height: 2rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(dc33bca1dcb9cba70ebc.png);
+  background-size: contain;
+}
+
+.yellow-check {
+  filter: hue-rotate(70deg);
+}
+
+.win {
+  width: 400px;
+  height: 300px;
+  background-color: aliceblue;
+  position: absolute;
+  left: calc(50vw - 200px);
+  top: calc(50vh - 150px);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.party {
+  width: 40rem;
+  height: 25rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(c8b5afd6e2cd181a9349.gif);
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+.table-section {
+  width: 100%;
+  height: 35%;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+.table-wrapper {
+  width: 99%;
+  justify-content: space-between;
+  background: rgb(34, 173, 195);
+  background: linear-gradient(180deg, rgb(34, 173, 195) 0%, rgb(187, 237, 244) 100%);
+}
+
+.cat {
+  height: 9rem;
+}
+
+#table-area {
+  width: 56rem;
+  height: 100%;
+}
+
+.table-right,
+.table-left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 20px;
+  width: 20rem;
+}
+
+.table-right {
+  width: 17rem;
+}
+
+.task {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #444444;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 3px;
+  background-color: azure;
+}
+
+rice {
+  width: 11rem;
+  height: 15rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(9c6b768ec4e1f83b369f.svg);
+}
+
+ramen {
+  width: 11rem;
+  height: 15rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(3dea67699dfffd072904.svg);
+}
+
+sushi {
+  width: 9rem;
+  height: 10rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(52e7746f792c462bec2c.svg);
+}
+
+plate {
+  width: 22rem;
+  height: 13rem;
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url(5d2c9bdcb9bbff820fab.svg);
+  justify-content: center;
+}
+
+plate.small {
+  width: 20rem;
+}
+
+board.small {
+  width: 38rem;
+  height: 80%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url(2be0b98879ea120e4f00.svg);
+  gap: 40px;
+}
+
+roll {
+  width: 6rem;
+  height: 9rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(8e6fd7fcd32b1f91b233.svg);
+}
+
+roll.salmon {
+  width: 7rem;
+  height: 10rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(4a659df2cc68a8c7e8ec.svg);
+}
+
+sushi.salmon {
+  width: 9rem;
+  height: 11rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(e03d922f39bf81432d4b.svg);
+}
+
+wasabi {
+  width: 8rem;
+  height: 9rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(7a8d556abcb452334d69.svg);
+}
+
+ginger {
+  width: 8rem;
+  height: 9rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(a9329680810c8d2ae9c2.svg);
+}
+
+board {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-image: url(4875f64fe1f88595c7c0.svg);
+  background-size: contain;
+  gap: 5px;
+}
+
+sause {
+  width: 6rem;
+  height: 19rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(3f97af49fe63de597d5c.svg);
+}
+
+sushi.unagi {
+  width: 8rem;
+  height: 8rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(e27769eab40886345b0e.svg);
+}
+
+sushi.tuna {
+  width: 7rem;
+  height: 8rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(6462d7357adb62d9cab6.svg);
+}
+
+sushi.octopus {
+  width: 8rem;
+  height: 9rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(90a5e347a9095ef06f9d.svg);
+}
+
+.selected {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.tooltip {
+  display: none;
+  background-color: bisque;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #444444;
+  position: absolute;
+  height: fit-content;
+  top: -40px;
+  left: 20px;
+  width: max-content;
+  border-radius: 2px;
+  padding: 2px;
+  z-index: 1000;
+}
+
+.visible {
+  display: block;
+}
