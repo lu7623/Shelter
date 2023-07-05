@@ -413,6 +413,7 @@ li:hover {
 
 .last {
   height: 200px;
+  justify-content: space-evenly;
 }
 
 .win-heading {
