@@ -1,0 +1,1848 @@
+/* ==========================================================================
+   Normalize.scss settings
+   ========================================================================== */
+/**
+ * Includes legacy browser support IE6/7
+ *
+ * Set to false if you want to drop support for IE6 and IE7
+ */
+/* Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *  `em` units.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000323}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000336}}
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000350}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000371}}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000388}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\0000398}}
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003110}}
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003120}}
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003132}}
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003140}}
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003155}}
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003164}}
+h1 {
+  font-size: 2em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003169}}
+h2 {
+  font-size: 1.5em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003174}}
+h3 {
+  font-size: 1.17em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003179}}
+h4 {
+  font-size: 1em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003184}}
+h5 {
+  font-size: 0.83em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003189}}
+h6 {
+  font-size: 0.67em;
+  margin: 0; }
+
+/**
+ * Addresses styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003199}}
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003238}}
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003246}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003254}}
+sup {
+  top: -0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003258}}
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 8/9/10.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003313}}
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003324}}
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003335}}
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003343}}
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003352}}
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003361}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *  Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ * 4. Improves appearance and consistency in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003388}}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003406}}
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003417}}
+button,
+select {
+  text-transform: none; }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003426}}
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003435}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003446}}
+input {
+  line-height: normal; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ *  Known issue: excess padding remains in IE 6.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003456}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003472}}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003484}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003493}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Corrects text not wrapping in Firefox 3.
+ * 4. Corrects alignment displayed oddly in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003506}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003519}}
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003528}}
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003539}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003544}}
+td,
+th {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003549}}
+ul {
+  padding-left: 0;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003554}}
+a {
+  color: unset;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_normalize\.scss}line{font-family:\00003559}}
+* {
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000031}}
+.button, .card, .slider__arrow, .arrow_active, .burger, .burger-open, .burger__nav, .burger__nav-open, .burger__overlay, .modal__btn, .slider, .item, .start__img, .start__title, .start__content, .help__content, .our-pets__header, .cards__container, .footer__wrapper, .footer__contact, .footer__contact h4, .footer__block, .header-pets__wrapper, .link {
+  transition: all .3s ease-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000035}}
+body, .button {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/abstract\/_placeholders\.scss}line{font-family:\000039}}
+.paragraph-l, .paragraph-s, .logo__subtitle_pets, .navigation__link, .logo__subtitle {
+  font-family: Arial, Helvetica, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\000031}}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000310}}
+.no-scroll {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000314}}
+h1 {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.5rem;
+  color: #F1CDB3;
+  letter-spacing: 0.06em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000318}}
+h2 {
+  font-size: 4.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5.7rem;
+  color: #545454;
+  letter-spacing: normal; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000318}}
+    h2 {
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 3.2rem;
+      color: #545454;
+      letter-spacing: 0.06em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000325}}
+h3 {
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.5rem;
+  color: #545454;
+  letter-spacing: 0.06em; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000325}}
+    h3 {
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 3.2rem;
+      color: #545454;
+      letter-spacing: 0.06em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000332}}
+h4 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.3rem;
+  color: #545454;
+  letter-spacing: 0.06em;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000337}}
+h5 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #545454;
+  letter-spacing: 0.06em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000341}}
+.paragraph-l {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #545454;
+  letter-spacing: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000346}}
+.paragraph-s {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #B2B2B2;
+  letter-spacing: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000351}}
+.color-light {
+  color: #CDCDCD; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000355}}
+.color-dark {
+  color: #4C4C4C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_base\.scss}line{font-family:\0000359}}
+.color-prime {
+  color: #F1CDB3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\000031}}
+.button {
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #292929;
+  letter-spacing: 0.08rem;
+  padding: 15px 45px;
+  border-radius: 100px;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\000038}}
+  .button_primary {
+    background: #F1CDB3;
+    border: 1px solid #F1CDB3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\0000311}}
+    .button_primary:hover {
+      background: #FDDCC4;
+      border: 1px solid #FDDCC4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\0000316}}
+  .button_secondary {
+    background: #FFFFFF;
+    border: 2px solid #FDDCC4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_buttons\.scss}line{font-family:\0000319}}
+    .button_secondary:hover {
+      background: #FDDCC4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\000031}}
+.icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\000039}}
+.needs__img {
+  width: 60px;
+  height: 60px; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\000039}}
+    .needs__img {
+      width: 50px;
+      height: 50px;
+      background-size: cover; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000319}}
+#food {
+  background-image: url("../img/icons/icon-pet-food.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000323}}
+#transportation {
+  background-image: url("../img/icons/icon-transportation.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000327}}
+#toys {
+  background-image: url("../img/icons/icon-toys.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000331}}
+#bowls {
+  background-image: url("../img/icons/icon-bowls-and-cups.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000335}}
+#shampoo {
+  background-image: url("../img/icons/icon-shampoos.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000339}}
+#vitamins {
+  background-image: url("../img/icons/icon-vitamins.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000343}}
+#medicines {
+  background-image: url("../img/icons/icon-medicines.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000347}}
+#collars {
+  background-image: url("../img/icons/icon-collars-leashes.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000351}}
+#sleep {
+  background-image: url("../img/icons/icon-sleeping-area.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000355}}
+.donation__logo {
+  background-image: url("../img/icons/credit-card.svg");
+  width: 30px;
+  height: 23px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000361}}
+.marker {
+  background-image: url("../img/icons/icon-marker.svg");
+  width: 22px;
+  height: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000367}}
+.email {
+  background-image: url("../img/icons/icon-email.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000371}}
+.phone {
+  background-image: url("../img/icons/icon-phone.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_icons\.scss}line{font-family:\0000375}}
+.contact__logo {
+  width: 40px;
+  height: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\000031}}
+.card__img {
+  height: 270px;
+  width: 270px;
+  border-radius: 9px 9px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\000039}}
+.img-katrine {
+  background-image: url(/shelter/assets/img/images/pets-katrine.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000314}}
+.img-jennifer {
+  background-image: url("../img/images/pets-jennifer.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000318}}
+.img-woody {
+  background-image: url("../img/images/pets-woody.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000322}}
+.img-sophia {
+  background-image: url("../img/images/pets-sophia.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000326}}
+.img-timmy {
+  background-image: url("../img/images/pets-timmy.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000329}}
+.img-charly {
+  background-image: url("../img/images/pets-charly.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000333}}
+.img-scarlett {
+  background-image: url("../img/images/pets-scarlet.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000337}}
+.img-freddie {
+  background-image: url("../img/images/pets-freddie.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000341}}
+.card {
+  width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 9px;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000353}}
+  .card:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000358}}
+  .card:hover > button {
+    background-color: #FDDCC4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000361}}
+  .card > button {
+    margin-bottom: 30px; }
+    @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_cards\.scss}line{font-family:\0000361}}
+      .card > button {
+        margin-bottom: 26px;
+        padding: 13px 45px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\000031}}
+.slider__arrow {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\000037}}
+  .slider__arrow:hover {
+    background-color: #FDDCC4;
+    border: 1px solid #FDDCC4;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000314}}
+.button-arrow-left {
+  background-image: url("../img/icons/button_arrow.svg"); }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000314}}
+    .button-arrow-left {
+      order: 2;
+      margin-left: 40px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000322}}
+.button-arrow-right {
+  background-image: url("../img/icons/button_arrow-right.svg"); }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000322}}
+    .button-arrow-right {
+      order: 2;
+      margin-right: 40px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000330}}
+.arrow_nav {
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000337}}
+.arrow_inactive {
+  color: #CDCDCD;
+  border: 2px solid #CDCDCD; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000342}}
+.arrow_active {
+  color: #292929;
+  border: 2px solid #F1CDB3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000346}}
+  .arrow_active:hover {
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_arrows\.scss}line{font-family:\0000361}}
+.our-pets__pagenum {
+  font-size: 16px;
+  background-color: #F1CDB3;
+  border: 2px solid #F1CDB3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\000031}}
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\000031}}
+    .burger {
+      width: 30px;
+      height: 22px;
+      background-size: cover;
+      z-index: 999; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000314}}
+.burger-open {
+  position: relative;
+  transform: rotate(90deg);
+  z-index: 999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000321}}
+.burger__nav {
+  z-index: 100; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000321}}
+    .burger__nav {
+      display: block;
+      width: 320px;
+      height: 823px;
+      background-color: #292929;
+      position: absolute;
+      right: -320px;
+      top: 0; } }
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000335}}
+  .burger__nav-pets {
+    background-color: #F6F6F6; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000341}}
+.burger__nav-open {
+  transform: translate(-320px); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000346}}
+.burger__main {
+  transition: all 500ms ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000350}}
+.burger__pets {
+  transition: all 500ms ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000354}}
+.burger__main > span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #F1CDB3;
+  transition: all 0.5s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000362}}
+.burger__pets > span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  transition: all 0.5s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000370}}
+.burger__overlay {
+  background: rgba(41, 41, 41, 0.6);
+  z-index: 10;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_burger\.scss}line{font-family:\0000382}}
+.burger__overlay-open {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\000031}}
+.modal {
+  background: rgba(41, 41, 41, 0.6);
+  z-index: 10;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000312}}
+.modal_open {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000316}}
+.modal__wrapper {
+  z-index: 90;
+  width: 952px;
+  height: 552px;
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000316}}
+    .modal__wrapper {
+      width: 682px;
+      height: 402px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000332}}
+.modal__window {
+  background-color: #FAFAFA;
+  width: 900px;
+  height: 500px;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+  border-radius: 9px;
+  display: flex;
+  position: relative; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000332}}
+    .modal__window {
+      width: 630px;
+      height: 350px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000332}}
+    .modal__window {
+      width: 240px;
+      height: 341px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000350}}
+.modal__btn {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 26px;
+  background-image: url(../img/icons/close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: flex-start;
+  justify-self: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000361}}
+  .modal__btn:hover {
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000367}}
+.modal__img {
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000367}}
+    .modal__img {
+      width: 350px;
+      height: 350px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000367}}
+    .modal__img {
+      display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000381}}
+.modal__content {
+  width: 350px;
+  height: 362px;
+  margin: 50px 20px 0 29px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000381}}
+    .modal__content {
+      width: 261px;
+      height: 303px;
+      margin: 10px 9px 0 11px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000381}}
+    .modal__content {
+      width: 240px;
+      height: 341px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\0000396}}
+.bold {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003100}}
+.modal__title {
+  padding-bottom: 10px;
+  color: black; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003100}}
+    .modal__title {
+      font-size: 35px;
+      line-height: 130%;
+      text-align: center; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003110}}
+.modal__subtitle {
+  padding-bottom: 40px;
+  color: black; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003110}}
+    .modal__subtitle {
+      padding-bottom: 20px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003110}}
+    .modal__subtitle {
+      text-align: center; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003121}}
+.modal__text {
+  padding-bottom: 32px;
+  color: black; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003121}}
+    .modal__text {
+      font-size: 13px;
+      line-height: 110%;
+      padding-bottom: 20px;
+      letter-spacing: 0.06em; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003121}}
+    .modal__text {
+      text-align: justify; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003135}}
+.modal__list {
+  list-style: disc;
+  color: #F1CDB3;
+  margin-left: 15px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003135}}
+    .modal__list {
+      margin-top: 0; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003144}}
+.modal__listitem {
+  padding-bottom: 11px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003144}}
+    .modal__listitem {
+      padding-bottom: 6px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_modal\.scss}line{font-family:\00003151}}
+.modal__listitem > h5 {
+  color: black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\000031}}
+.slider {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\000031}}
+    .slider {
+      margin-bottom: 58px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\000031}}
+    .slider {
+      width: 270px;
+      flex-wrap: wrap;
+      margin-bottom: 40px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\0000318}}
+.slider__container {
+  overflow: hidden;
+  height: 435px;
+  width: 990px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\0000324}}
+.carousel {
+  display: flex;
+  position: relative;
+  left: -1080px;
+  gap: 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\0000331}}
+.item {
+  width: 990px;
+  gap: 90px;
+  display: flex;
+  justify-content: space-between; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\0000331}}
+    .item {
+      width: 580px;
+      display: flex;
+      justify-content: space-between;
+      overflow: hidden;
+      flex-wrap: wrap;
+      height: 435px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\0000331}}
+    .item {
+      display: flex;
+      justify-content: space-between;
+      width: 270px;
+      order: 1;
+      margin-bottom: 23px; } }
+
+@keyframes move-right {
+  from {
+    left: -1080px; }
+  to {
+    left: -2160px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\0000356}}
+.transition-right {
+  animation-name: move-right;
+  animation-duration: 1s; }
+
+@keyframes move-left {
+  from {
+    left: -1080px; }
+  to {
+    left: 0px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/base\/_slider\.scss}line{font-family:\0000366}}
+.transition-left {
+  animation-name: move-left;
+  animation-duration: 1s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
+.wrapper {
+  max-width: 1200px;
+  margin: auto; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
+    .wrapper {
+      padding: 0 20px; } }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
+    .wrapper {
+      max-width: 708px;
+      padding: 0 30px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
+    .wrapper {
+      max-width: 500px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_wrapper\.scss}line{font-family:\000031}}
+    .wrapper {
+      min-width: 300px;
+      padding: 0 10px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_columns\.scss}line{font-family:\000031}}
+.layout-3-column {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_columns\.scss}line{font-family:\000035}}
+.layout-2-column {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/layouts\/_columns\.scss}line{font-family:\000039}}
+.layout-4-column {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\000031}}
+.start__img {
+  min-width: 698px;
+  height: 728px;
+  background-image: url("../img/images/start-screen-puppy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\000031}}
+    .start__img {
+      background-image: url("../img/images/start-screen-puppy-768.png");
+      min-width: 569px;
+      height: 593px;
+      background-size: contain;
+      margin-left: 44px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\000031}}
+    .start__img {
+      background-image: url("../img/images/start-screen-puppy-mobile.png");
+      min-width: 260px;
+      height: 272px;
+      margin: 74px 0 0 32px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000324}}
+.start__title {
+  color: #FFFFFF;
+  padding-top: 127px;
+  margin: 35px 0;
+  padding-bottom: 7px;
+  width: 310px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000324}}
+    .start__title {
+      padding-top: 0;
+      padding-bottom: 0;
+      margin: 30px 0 42px 0; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000324}}
+    .start__title {
+      margin: 29px auto 40px;
+      width: 250px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000342}}
+.start__content {
+  max-width: 460px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000342}}
+    .start__content {
+      margin: 0 25px 98px 25px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000342}}
+    .start__content {
+      margin: 0;
+      width: 300px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000354}}
+.start__button {
+  margin-top: 28px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000354}}
+    .start__button {
+      margin-left: 124px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000354}}
+    .start__button {
+      margin: 30px; } }
+
+@media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000364}}
+  .start__wrapper {
+    flex-direction: column;
+    width: 569px;
+    margin: auto; } }
+@media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_start\.scss}line{font-family:\0000364}}
+  .start__wrapper {
+    width: fit-content;
+    text-align: center; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\000031}}
+.about__img {
+  background-image: url("../img/images/about-pets.png");
+  width: 300px;
+  height: 408px;
+  background-repeat: no-repeat; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\000031}}
+    .about__img {
+      width: 260px;
+      height: 353.6px;
+      background-size: contain; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000313}}
+.about__title {
+  width: 340px;
+  margin-top: 35px; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000313}}
+    .about__title {
+      width: 250px;
+      margin: 0 auto;
+      text-align: center; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000323}}
+.about__wrapper {
+  max-width: 850px;
+  padding-top: 60px;
+  padding-bottom: 98px;
+  margin: auto;
+  align-items: flex-end; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000323}}
+    .about__wrapper {
+      flex-direction: column-reverse;
+      align-items: center;
+      max-width: 435px;
+      padding-top: 45px;
+      padding-bottom: 100px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000323}}
+    .about__wrapper {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000342}}
+.about__content {
+  width: 430px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000342}}
+    .about__content {
+      margin-bottom: 62px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000342}}
+    .about__content {
+      width: 270px;
+      text-align: justify;
+      margin-bottom: 30px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000354}}
+.about_p {
+  margin-top: 26px;
+  margin-bottom: 28px; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_about\.scss}line{font-family:\0000354}}
+    .about_p {
+      margin-bottom: 20px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000031}}
+.donation__img {
+  background-image: url("../img/images/donation-dog.png");
+  width: 505px;
+  height: 261px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000031}}
+    .donation__img {
+      margin-top: 58px; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\000031}}
+    .donation__img {
+      width: 260px;
+      height: 135.2px;
+      margin-top: 43px;
+      margin-left: 20px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000318}}
+.donation {
+  background-color: #F6F6F6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000322}}
+.donation__card {
+  display: flex;
+  align-items: center;
+  background-color: #F1CDB3;
+  border-radius: 9px;
+  width: 349px;
+  padding: 10px 15px;
+  justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000330}}
+  .donation__card:hover {
+    background-color: #FDDCC4;
+    cursor: pointer; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000322}}
+    .donation__card {
+      width: 281px;
+      height: 43px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000340}}
+.donation__content {
+  width: 379px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000346}}
+  .donation__content > p {
+    margin: 0; }
+    @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000346}}
+      .donation__content > p {
+        margin-top: 20px;
+        text-align: justify; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000340}}
+    .donation__content {
+      display: block;
+      height: 281px;
+      padding: 0 13px;
+      width: 300px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000359}}
+    .donation__content > h5 {
+      letter-spacing: normal;
+      padding-bottom: 24px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000367}}
+.donation__wrapper {
+  width: 915px;
+  margin: auto;
+  padding: 80px 0 100px 0;
+  align-items: center; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000367}}
+    .donation__wrapper {
+      flex-direction: column-reverse;
+      align-items: center;
+      width: fit-content; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000367}}
+    .donation__wrapper {
+      padding: 42px 0;
+      align-items: flex-start; } }
+
+@media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000383}}
+  .donation__number {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #545454;
+    letter-spacing: 0.06em; } }
+
+@media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_donation\.scss}line{font-family:\0000389}}
+  .donation__title {
+    text-align: center;
+    padding-bottom: 24px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\000031}}
+.help__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 72px;
+  margin: 0; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\000031}}
+    .help__content {
+      justify-content: space-between;
+      padding-bottom: 25px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000314}}
+.help__item {
+  margin: 28px 60px;
+  height: 113px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000314}}
+    .help__item {
+      margin: 28px 30px;
+      width: 170px;
+      height: 113px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000314}}
+    .help__item {
+      margin: 15px 15px;
+      height: 87px;
+      width: 130px;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.7rem;
+      color: #545454;
+      letter-spacing: 0.06em; } }
+
+@media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000335}}
+  .needs__text {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #545454;
+    letter-spacing: 0.06em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000341}}
+.help__title {
+  text-align: center;
+  width: 310px;
+  padding-bottom: 30px; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000341}}
+    .help__title {
+      width: 250px;
+      padding-bottom: 28px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000351}}
+.help__wrapper {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000351}}
+    .help__wrapper {
+      padding: 80px 0 0 0; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_help\.scss}line{font-family:\0000351}}
+    .help__wrapper {
+      padding-top: 42px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\000031}}
+.pets {
+  background-color: #F6F6F6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\000035}}
+.pets__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+  align-items: center; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\000035}}
+    .pets__wrapper {
+      padding-top: 42px;
+      padding-bottom: 22px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000316}}
+.pets__button {
+  width: 262px;
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000321}}
+.pets__title {
+  padding-bottom: 60px; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_pets\.scss}line{font-family:\0000321}}
+    .pets__title {
+      padding-bottom: 40px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000031}}
+.our-pets {
+  background-color: #F6F6F6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000035}}
+.our-pets__header {
+  margin-top: 80px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 60px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000035}}
+    .our-pets__header {
+      margin-bottom: 30px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\000035}}
+    .our-pets__header {
+      margin-bottom: 40px;
+      margin-top: 42px;
+      width: fit-content; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000321}}
+.cards__container {
+  display: flex;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000321}}
+    .cards__container {
+      width: 900px;
+      height: 930px;
+      overflow: hidden;
+      width: fit-content; } }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000321}}
+    .cards__container {
+      width: 580px;
+      height: 1365px;
+      overflow: hidden;
+      width: 100%;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between; } }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000321}}
+    .cards__container {
+      width: 270px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000346}}
+.cards__container > .card {
+  margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000350}}
+.our-pets__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000350}}
+    .our-pets__wrapper {
+      flex-direction: column;
+      align-items: center; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000360}}
+.our-pets__nav {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-bottom: 100px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000360}}
+    .our-pets__nav {
+      padding-top: 38px;
+      margin-bottom: 78px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_our-pets\.scss}line{font-family:\0000360}}
+    .our-pets__nav {
+      padding-top: 46px;
+      margin-bottom: 40px;
+      width: 300px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+.footer__wrapper {
+  display: flex; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+    .footer__wrapper {
+      justify-content: space-between; } }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+    .footer__wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000314}}
+.footer__title {
+  color: #FFFFFF;
+  padding-right: 10px; }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000314}}
+    .footer__title {
+      text-align: center;
+      padding: 0; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000324}}
+.footer__img {
+  background-image: url("../img/images/footer-puppy.png");
+  width: 300px;
+  height: 310px;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-left: 40px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000324}}
+    .footer__img {
+      margin-left: 0;
+      margin-top: 64px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000324}}
+    .footer__img {
+      width: 260px;
+      height: 269px;
+      background-size: cover;
+      margin-top: 40px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000343}}
+.footer__contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000350}}
+.footer__contact h4 {
+  padding-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000353}}
+  .footer__contact h4:hover {
+    color: #FAFAFA; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000358}}
+.gradient_background {
+  background: url(../img/images/95577108af837b8b441616746225b66e.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%), #211f20; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000364}}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 234px;
+  margin-top: 56px;
+  margin-right: 120px; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000364}}
+    .footer__block {
+      margin-right: 0; } }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000364}}
+    .footer__block {
+      margin-top: 32px;
+      margin-right: 18px;
+      margin-left: 18px; } }
+
+@media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000383}}
+  .footer__address {
+    height: 230px; } }
+
+@media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000389}}
+  .footer__address > h3 {
+    width: 280px;
+    padding: 8px 0 0 18px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000396}}
+.footer__location {
+  width: 320px; }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000396}}
+    .footer__location {
+      width: 300px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\0000396}}
+    .footer__location {
+      width: 252px;
+      height: 206px;
+      align-items: center; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_footer\.scss}line{font-family:\00003108}}
+.footer__location_long {
+  width: 280px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\000031}}
+.link-pets {
+  text-decoration: none;
+  color: #545454; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\000034}}
+  .link-pets:hover {
+    color: #292929; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\000039}}
+.logo__subtitle_pets {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #292929;
+  letter-spacing: 0.11em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000319}}
+.logo__pets {
+  color: #545454; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000323}}
+.header-pets__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000323}}
+    .header-pets__wrapper {
+      padding-left: 20px;
+      padding-right: 20px; } }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000323}}
+    .header-pets__wrapper {
+      padding: 30px 0px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000323}}
+    .header-pets__wrapper {
+      padding: 30px 20px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000343}}
+.link-active-pets {
+  height: 27px;
+  border-bottom: 3px solid #F1CDB3;
+  color: #292929; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000343}}
+    .link-active-pets {
+      height: 50px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000353}}
+.navigation {
+  display: flex; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-pets\.scss}line{font-family:\0000353}}
+    .navigation {
+      display: none;
+      flex-direction: column;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      top: 26.5%; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 90px 0; }
+  @media (max-width: 1230px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
+    .header__wrapper {
+      padding-left: 20px;
+      padding-right: 20px; } }
+  @media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
+    .header__wrapper {
+      padding: 30px 0px; } }
+  @media (max-width: 520px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\000031}}
+    .header__wrapper {
+      padding: 30px 20px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000320}}
+.navigation-main {
+  display: flex; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000320}}
+    .navigation-main {
+      display: none;
+      flex-direction: column;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      top: 26.5%; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000332}}
+.navigation-open {
+  display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000336}}
+.navigation__link {
+  padding-left: 35px;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #545454;
+  letter-spacing: normal;
+  color: #CDCDCD; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000336}}
+    .navigation__link {
+      padding-bottom: 40px;
+      padding-left: 0;
+      font-size: 3.2rem;
+      line-height: 160%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000347}}
+  .navigation__link:first-of-type {
+    padding: 0; }
+    @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000347}}
+      .navigation__link:first-of-type {
+        padding-bottom: 40px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000355}}
+.link {
+  height: 27px;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000359}}
+  .link:hover {
+    color: #FAFAFA; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000364}}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000370}}
+.logo__title {
+  margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000374}}
+.logo__subtitle {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #FFFFFF;
+  letter-spacing: 0.12em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000384}}
+.link-active-main {
+  display: inline-block;
+  height: 27px;
+  border-bottom: 3px solid #F1CDB3;
+  color: #FAFAFA; }
+  @media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/lu7623-JSFE2023Q1\/shelter\/assets\/sass\/components\/_header-main\.scss}line{font-family:\0000384}}
+    .link-active-main {
+      height: 50px; } }
+
+/*# sourceMappingURL=style.css.map */

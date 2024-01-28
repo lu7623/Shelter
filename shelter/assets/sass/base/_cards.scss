@@ -1,0 +1,70 @@
+.card__img {
+    height: 270px;
+width: 270px;
+border-radius: 9px 9px 0px 0px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.img-katrine {
+    background-image: url(/shelter/assets/img/images/pets-katrine.png);
+
+}
+
+.img-jennifer {
+    background-image: url("../img/images/pets-jennifer.png");
+}
+
+.img-woody {
+    background-image: url("../img/images/pets-woody.png");
+}
+
+.img-sophia {
+    background-image: url("../img/images/pets-sophia.png");
+}
+
+.img-timmy {
+    background-image: url("../img/images/pets-timmy.png");
+}
+.img-charly {
+    background-image: url("../img/images/pets-charly.png");
+}
+
+.img-scarlett {
+    background-image: url("../img/images/pets-scarlet.png");
+}
+
+.img-freddie {
+    background-image: url("../img/images/pets-freddie.png");
+}
+
+.card {
+width: 270px;
+height: 435px;
+background-color: $color-light-s;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+border-radius: 9px;
+overflow: hidden;
+@extend %transition;
+&:hover {
+    background: $color-light-xl;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    cursor: pointer;
+}
+&:hover > button {
+    background-color: $color-primary-light;
+}
+& > button {
+   margin-bottom: 30px;
+   @include media-mobile {
+    margin-bottom: 26px;
+    padding: 13px 45px;
+   }
+}
+}
+
+

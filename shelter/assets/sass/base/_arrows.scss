@@ -1,0 +1,73 @@
+.slider__arrow {
+    width: 52px;
+height: 52px;
+@extend %transition;
+border: 2px solid $color-primary;
+border-radius: 26px;
+&:hover {
+    background-color: $color-primary-light;
+    border: 1px solid $color-primary-light;
+    cursor: pointer;
+}
+}
+
+.button-arrow-left {
+    background-image: url('../img/icons/button_arrow.svg');
+    @include media-tabletsmall {
+        order: 2;
+        margin-left: 40px;
+    }
+}
+
+.button-arrow-right {
+    background-image: url('../img/icons/button_arrow-right.svg');
+    @include media-tabletsmall {
+        order: 2;
+        margin-right: 40px;
+    }
+}
+
+.arrow_nav {
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    font-size: 20px;
+  }
+
+.arrow_inactive {
+    color: $color-dark-s;
+    border: 2px solid $color-dark-s;
+}
+
+.arrow_active {
+    color: $color-dark-3xl;
+    border: 2px solid $color-primary;
+    @extend %transition;
+    &:hover {
+        background-color: $color-primary-light;
+        border: 2px solid $color-primary-light;
+        cursor: pointer;
+    }
+}
+
+// .our-pets__2arrowleft {
+//     background-image: url(../img/icons/button_2arrow_inactive.svg);
+// }
+
+// .our-pets__1arrowleft {
+//     background-image: url(../img/icons/button_arrow_inactive.svg);
+// }
+
+.our-pets__pagenum{
+    font-size: 16px;
+    background-color: $color-primary;
+    border: 2px solid $color-primary;
+}
+
+// .our-pets__1arrowright {
+//     background-image: url(../img/icons/button_arrow_active.svg);
+// }
+
+// .our-pets__2arrowright {
+//     background-image: url(../img/icons/button_2arrow-active.svg);
+// }

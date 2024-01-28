@@ -1,0 +1,27 @@
+.pets {
+  background-color: $color-light-l;
+}
+
+.pets__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+  align-items: center;
+  @include media-mobile {
+    padding-top: 42px;
+    padding-bottom: 22px;
+  }
+}
+
+.pets__button {
+  width: 262px;
+  margin-bottom: 20px;
+}
+
+.pets__title {
+  padding-bottom: 60px;
+  @include media-mobile {
+    padding-bottom: 40px;
+  }
+}
+
